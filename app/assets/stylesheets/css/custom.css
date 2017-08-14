@@ -9,8 +9,7 @@
 
 @media (min-width: 1280px) {
 body.boxed-layout {
-     padding: 0;
-    background: #eee;
+  background: #0e2d53;
 }
 }
 
@@ -20,6 +19,8 @@ body.boxed-layout {
 }
 }
 
+
+/*Backgroun colors*/
 
 .bg--primary {
   background: #0e2d53;
@@ -34,6 +35,12 @@ body.boxed-layout {
   background: #FF4500;
 }
 
+.bg--grey {
+  background: #f8f8f8;
+}
+
+/*list styling*/
+
 ol {
     list-style-position: outside;
     padding-left: 20px;
@@ -46,4 +53,26 @@ ol li {
 
 h1, h2, h3 {
   font-weight: 500;
+}
+
+
+/*social media*/
+
+.bg--twitter {
+  background: #1DA1F2
+}
+
+.bg--orange {
+  background: #f26f1d
+}
+
+.bg--yellow {
+  background: #f2d91d
+}
+
+
+/*utilities*/
+
+.no-margin {
+  margin: 0;
 }
