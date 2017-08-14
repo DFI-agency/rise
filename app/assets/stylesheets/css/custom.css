@@ -30,6 +30,10 @@ body.boxed-layout {
   color: #FF4500;
 }
 
+.bg--orange {
+  background: #FF4500;
+}
+
 ol {
     list-style-position: outside;
     padding-left: 20px;

@@ -1,4 +1,6 @@
 class MailingListController < ApplicationController
+  layout 'application'
+
   def submit
   end
 

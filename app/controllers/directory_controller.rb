@@ -1,4 +1,6 @@
 class DirectoryController < ApplicationController
+  layout 'application'
+
   def landing
   end
 

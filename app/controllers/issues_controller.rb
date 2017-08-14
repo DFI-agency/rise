@@ -1,4 +1,6 @@
 class IssuesController < ApplicationController
+  layout 'application'
+
   def home
   end
 

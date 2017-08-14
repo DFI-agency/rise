@@ -15,4 +15,8 @@ class PagesController < ApplicationController
 
   def grad_prep
   end
+
+  def research
+  end
+
 end

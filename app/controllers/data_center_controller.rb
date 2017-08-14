@@ -1,4 +1,6 @@
 class DataCenterController < ApplicationController
+  layout 'application'
+
   def landing
   end
 
