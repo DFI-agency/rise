@@ -12,29 +12,29 @@
 }
 
 nav.bar.bar--sm li > span.dropdown__trigger {
-    top: 0;
-    font-family: 'Oswald';
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    letter-spacing: 2px;
-    font-size: 1.1em;
-    margin-right: 1.6em;
-    opacity: 1;
+  top: 0;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  margin-right: 1.6em;
+  opacity: 1;
 }
 
 @media (min-width: 1280px) {
 body.boxed-layout {
   background: #0e2d53;
-}
+  padding-top: 0;
+  }
 }
 
 .cta .menu-horizontal li:not(:last-child) {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 
 /*Backgroun colors*/
-
 .bg--primary {
   background: #0e2d53;
 }
@@ -97,11 +97,23 @@ h1, h2, h3, h4 {
 }
 
 .bg--orange {
-  background: #f26f1d
+  background: #ee6431
 }
 
 .bg--yellow {
-  background: #f2d91d
+  background: #ffb140
+}
+
+.color--orange-dark {
+  color: #bb4f3e;
+}
+
+.color--orange-light {
+  color: #FFD597;
+}
+
+.color--purple {
+  color: #5800a5;
 }
 
 
@@ -118,6 +130,11 @@ h1, h2, h3, h4 {
   border-left: 1px solid #eee;
 }
 
+.box-shadow-light {
+  box-shadow: 1px 1px 1px #ccc;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
 
 .padding-left-0 {
   padding-left: 0;
@@ -138,4 +155,9 @@ a {
 
 .menu-horizontal > li:not(:hover) > a > i {
     color: #fff;
+}
+
+
+.feature-5 p:last-of-type {
+    line-height: 1.5em;
 }
