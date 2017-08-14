@@ -43,6 +43,10 @@ body.boxed-layout {
   opacity: .75;
 }
 
+[data-overlay].bg--primary:before {
+  background: #0e2d53;
+}
+
 /*list styling*/
 
 ol {
