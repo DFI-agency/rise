@@ -72,6 +72,7 @@ h1, h2, h3, h4 {
   letter-spacing: 1px;
   text-transform: uppercase;
   word-spacing: 2px;
+  color: #0e2d53;
 }
 
 .lead {
@@ -119,4 +120,8 @@ h1, h2, h3, h4 {
 
 .box-shadow-dark {
   box-shadow: 1px 30px 20px #222;
+}
+
+a {
+  color: #0e2d53;
 }
