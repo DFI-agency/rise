@@ -52,7 +52,13 @@ ol li {
 }
 
 h1, h2, h3 {
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.lead {
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #333;
 }
 
 
@@ -75,4 +81,11 @@ h1, h2, h3 {
 
 .no-margin {
   margin: 0;
+}
+
+
+.box-shadow {
+  box-shadow: 1px 10px 15px #ccc;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
