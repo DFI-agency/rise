@@ -39,6 +39,10 @@ body.boxed-layout {
   background: #f8f8f8;
 }
 
+.type--fine-print.color--white {
+  opacity: .75;
+}
+
 /*list styling*/
 
 ol {

@@ -24,6 +24,7 @@
     <link href="css/font-robotoslab.css" rel="stylesheet" type="text/css" media="all" />
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= favicon_link_tag %>
 
 
       </head>
@@ -34,7 +35,7 @@
 
     <div class="main-container">
       <%= yield %>
-      <%#= render "layouts/shared/footer" %>
+      <%= render "layouts/shared/footer" %>
     </div>
     <!--<div class="loader"></div>-->
     <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
