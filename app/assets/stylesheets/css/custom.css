@@ -5,6 +5,10 @@
   font-weight: normal;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  color: #0e2d53;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 1280px) {
@@ -59,14 +63,20 @@ ol li {
   margin-left: 10px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: 400;
+}
+
+.title-font-alt {
+  font-family: 'Oswald';
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-spacing: 2px;
 }
 
 .lead {
     font-weight: 400;
     line-height: 1.4em;
-    color: #333;
 }
 
 
@@ -105,4 +115,8 @@ h1, h2, h3 {
 
 .padding-right-0 {
   padding-right: 0;
+}
+
+.box-shadow-dark {
+  box-shadow: 1px 30px 20px #222;
 }
