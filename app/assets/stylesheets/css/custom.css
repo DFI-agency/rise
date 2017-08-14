@@ -1,0 +1,45 @@
+/*! Place your custom styles here */
+
+.menu-horizontal > li:not(:hover) > a {
+  opacity: 1;
+  font-weight: normal;
+  font-weight: 300;
+  font-variant-ligatures: common-ligatures;
+}
+
+@media (min-width: 1280px) {
+body.boxed-layout {
+     padding: 0;
+    background: #eee;
+}
+}
+
+@media (min-width: 990px) {
+.menu-horizontal li:not(:last-child) {
+    margin: 0 1em;
+}
+}
+
+
+.bg--primary {
+  background: #0e2d53;
+}
+
+
+.color--orange {
+  color: #FF4500;
+}
+
+ol {
+    list-style-position: outside;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+ol li {
+  margin-left: 10px;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}

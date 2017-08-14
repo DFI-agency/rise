@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="56px" viewBox="0 0 59 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/workforce</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="146" y="0" width="58.7540984" height="56" id="rect-1"></rect>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RISE-Home-Page-Concept-3" transform="translate(-466.000000, -4790.000000)">
+            <g id="Group-23" transform="translate(320.000000, 4790.000000)">
+                <g id="icons/workforce">
+                    <image x="146" y="0" width="58.7540984" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA9CAYAAAAd1W/BAAAABGdBTUEAA1teXP8meAAAA0FJREFUaAXtW92LTVEUvwZDyceMMENKHnkwouFJU4onlChFUR488eJFeZMH5G+gMc2kNIWiyccDpXghkyQv14uPF19DjG+/352zbr+5c+5wztly79571W/22uvuve7+rb3WPmdq31Lp30kPXPcCZeAL8Csj3mD8PeAo0A40jczBSgeBrIQnG/8W/nY1QwRmYZH3HZPXwBxo9CCcrSF/Hv0NwOwcC1+OOXuB54AF4Rv0LqAhZSVW9ROwxR5ytMo2+Hkofq848uvczXFZ5JBj76vg70fi/zva+Y79O3F3LVkgM2CfeLwJfSQntomfR9AtuzaJvZA6rdDs8ZM7pDssOg/GPGcAXUwXPywDlhlFv2vMkvNvS855adOminFUdO6aC1GfzjbOZQCm1GGp9o0YM/cPuPQXfuoMyW52Fkl8db2dVvsnjON5MJnwUZcm6ift81w2lxmQawH/e1JaBqzDonYD3QAPm7QxME+QRRMsYwYtgcswfa0zzsztptS06uc0PjtW83lal1nzAXgGDAHngHdAqrA2LwCcVBQr5BvuFvC3Q/ycKeDH+LyGjz3is7q782C8A+jCdZwvOrOrD1gMnCIpSyum5hYaEhlEOwDw2ct/ZbPKK0zgGxtlATCjomX/wx37nExrQ8t3iqxCsizrIwB1CjNiM3CdnR7AUoTtfsBHYZbfBozrsJHU2uo3o6ftMvDioWhBWE2eT8XAFxXf5SIIWgAOtqDTKYwfiO6rqhw7GYBWYfpRdF9V5djKANiTgISZGkEJAxC0xAAEvf0gHzMAQYiHYMhlEEsg5N0n95gBCEI8BEMug1gCIe8+uccMiBkQnwJh50A8A8Le//gUqDwG46twyGUQD8GQd5/cYwYgCPEQDLkMYgmEvPvkHjMgwAzQQ7+SAbwzY7LEFI9b5TjCEigL2fWi+6oqxwr3E2Bql4YeQ5/pK3Pw2i5c+QuUheS6FOBlRAvCVeh6cQpdL2QnWPC3iMazl6zsQDgMnReQTd5DuQXwpuioGZu0Zc3zpugaWf8L6GuBl2IrnUTHouNzy5/hdSlx1bei8wTwMQC8u8xbsR1AVawEqoZEYbpk/b1ArY9G6fMxXwZuALx8PU5+A06Xa58z+f7VAAAAAElFTkSuQmCC"></image>
+                    <use fill="#1474B5" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

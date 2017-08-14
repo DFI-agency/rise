@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>hero/btn-play-hover/btn-gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="14.455789%" y1="89.5091354%" x2="67.7553636%" y2="-13.0553818%" id="linearGradient-1">
+            <stop stop-color="#F3790D" offset="0%"></stop>
+            <stop stop-color="#ECD701" offset="40.369898%"></stop>
+            <stop stop-color="#EAEC01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="24.3787843%" y1="108.660947%" x2="69.4581488%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#BC4422" offset="0%"></stop>
+            <stop stop-color="#F3790D" offset="27.4459787%"></stop>
+            <stop stop-color="#E56B12" offset="36.5589351%"></stop>
+            <stop stop-color="#FFEA00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About-(Final)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-RISE" transform="translate(-675.000000, -375.000000)">
+            <g id="hero" transform="translate(-1.000000, 0.000000)">
+                <g id="btn/play-gradient" transform="translate(676.000000, 375.000000)">
+                    <path d="M25,50 C11.1928813,50 0,38.8071187 0,25 C0,11.1928813 11.1928813,0 25,0 C38.8071187,0 50,11.1928813 50,25 C50,38.8071187 38.8071187,50 25,50 Z M25.2358491,48.1132075 C37.8706653,48.1132075 48.1132075,37.8706653 48.1132075,25.2358491 C48.1132075,12.6010328 37.8706653,2.35849057 25.2358491,2.35849057 C12.6010328,2.35849057 2.35849057,12.6010328 2.35849057,25.2358491 C2.35849057,37.8706653 12.6010328,48.1132075 25.2358491,48.1132075 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                    <polygon id="Triangle" fill="url(#linearGradient-2)" points="30.6603774 24.9811321 19.8113208 30.6226415 19.8113208 19.3396226"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
