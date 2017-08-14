@@ -125,3 +125,8 @@ h1, h2, h3, h4 {
 a {
   color: #0e2d53;
 }
+
+
+.menu-horizontal > li:not(:hover) > a > i {
+    color: #fff;
+}
