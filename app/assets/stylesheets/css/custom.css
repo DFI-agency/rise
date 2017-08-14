@@ -1,6 +1,6 @@
 /*! Place your custom styles here */
 
-.menu-horizontal > li:not(:hover) > a {
+.menu-horizontal > li > a {
   opacity: 1;
   font-weight: normal;
   font-weight: 300;
@@ -11,16 +11,23 @@
   letter-spacing: 1px;
 }
 
+nav.bar.bar--sm li > span {
+    top: 0;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    opacity: .75;
+
+}
+
 @media (min-width: 1280px) {
 body.boxed-layout {
   background: #0e2d53;
 }
 }
 
-@media (min-width: 990px) {
-.menu-horizontal li:not(:last-child) {
+.cta .menu-horizontal li:not(:last-child) {
     margin: 0 1em;
-}
 }
 
 
