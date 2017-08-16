@@ -4,10 +4,10 @@
         <div class="row">
             <div class="col-md-1 col-sm-2 hidden-xs">
                 <div class="bar__module">
-                    <a href="index.html">
-                      <%= image_tag("rise_assets/hero_head/logo_icon/icon-nav/logoicon-nav-white.svg", class:"logo logo-light")%>
-                      <%= image_tag("rise_assets/hero_head/logo_icon/icon-nav/logoicon-nav-white.svg", class:"logo logo-dark")%>
-                    </a>
+                  <%= link_to root_path do %>
+                    <%= image_tag("rise_assets/hero_head/logo_icon/icon-nav/logoicon-nav-white.svg", class:"logo logo-light")%>
+                    <%= image_tag("rise_assets/hero_head/logo_icon/icon-nav/logoicon-nav-white.svg", class:"logo logo-dark")%>
+                  <% end %>
                 </div>
                 <!--end module-->
             </div>
