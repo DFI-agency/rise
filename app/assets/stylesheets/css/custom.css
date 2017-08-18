@@ -165,3 +165,16 @@ a {
 .feature-5 p:last-of-type {
     line-height: 1.5em;
 }
+
+
+.feature h4 + p {
+    max-width: 22.28571429em;
+}
+
+.feature-5 p {
+     min-height: 0;
+}
+
+.feature-5 p:last-of-type {
+    margin-bottom: 0;
+}
