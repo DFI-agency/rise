@@ -93,15 +93,19 @@ h1, h2, h3, h4 {
 /*social media*/
 
 .bg--twitter {
-  background: #1DA1F2
+  background: #1DA1F2;
 }
 
 .bg--orange {
-  background: #ee6431
+  background: #ee6431;
 }
 
 .bg--yellow {
-  background: #ffb140
+  background: #ffb140;
+}
+
+.color--yellow {
+  color: #ffb140;
 }
 
 .color--orange-dark {
