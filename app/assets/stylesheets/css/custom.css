@@ -109,6 +109,12 @@ h1, h2, h3, h4 {
   color: #ffb140 !important;
 }
 
+.color--brightyellow {
+  color: #F1F500 !important;
+}
+
+
+
 .color--orange-dark {
   color: #bb4f3e;
 }
