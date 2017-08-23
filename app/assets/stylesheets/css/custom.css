@@ -362,3 +362,8 @@ span.circle-border {
 .advisors h4 a {
   color: #F0DC28 !important
 }
+
+.flickity-prev-next-button:not(:hover) {
+  opacity: 1;
+  font-size: 20px;
+}
