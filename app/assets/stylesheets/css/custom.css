@@ -357,3 +357,8 @@ span.circle-border {
     border-bottom: 1px solid #ddd;
     box-shadow: 1px 1px 1px #eee;
 }
+
+
+.advisors h4 a {
+  color: #F0DC28 !important
+}
