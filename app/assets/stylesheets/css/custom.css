@@ -352,3 +352,8 @@ span.circle-border {
 .color--white {
   color: #fff !important;
 }
+
+.bar.pos-fixed:not([class*='bg-']) {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #eee;
+}
