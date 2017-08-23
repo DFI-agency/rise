@@ -272,6 +272,21 @@ hr {
   background: linear-gradient(45deg, rgba(93,9,20,0.8) 0%,rgba(125,20,34,0.75) 21%,rgba(127,21,35,0.75) 22%,rgba(188,69,34,0.7) 43%,rgba(243,121,14,0.65) 71%,rgba(235,215,1,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.btn--rise-orange {
+  border: 1px solid #bc4422; /* Old browsers */
+  border-color: -moz-linear-gradient(top, #bc4422 0%, #f3790d 50%, #ffea00 100%); /* FF3.6-15 */
+  border-color: -webkit-linear-gradient(top, #bc4422 0%,#f3790d 50%,#ffea00 100%); /* Chrome10-25,Safari5.1-6 */
+  border-color: linear-gradient(to bottom, #bc4422 0%,#f3790d 50%,#ffea00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.btn--rise-blue {
+  background: #f3790d; /* Old browsers */
+  background: -moz-linear-gradient(top, #f3790d 0%, #ecd701 39%, #eaec01 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f3790d 0%,#ecd701 39%,#eaec01 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f3790d 0%,#ecd701 39%,#eaec01 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
 
 /*hover state for horizontal menu
 1574B5*/
@@ -313,4 +328,20 @@ span.circle-border {
 
 .boxed.no-border-radius {
   border-radius: 0;
+}
+
+
+.btn:not([class*='primary']), .btn--rise {
+  border-radius: 100px;
+  border-width: 2px;
+  font-size: 1.4em;
+  border-color: orange !important;
+  color: orange;
+}
+
+.btn--rise-orange i.material-icons {
+  font-size: 1.8em;
+  vertical-align: middle;
+  color: #ffb140;
+
 }
