@@ -73,7 +73,7 @@ ol li {
 }
 
 h1, h2, h3, h4 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .title-font-alt {
@@ -275,3 +275,34 @@ hr {
 
 /*hover state for horizontal menu
 1574B5*/
+
+
+.center {
+  display: table;
+  margin: 20px auto;
+}
+
+span.circle-border {
+  border: 1px solid #0e2d53;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: .75em !important;
+  background: #0e2d53;
+  color: #fff;
+}
+
+.no--border {
+  border: none;
+}
+
+.btn {
+  font-weight: 500;
+}
