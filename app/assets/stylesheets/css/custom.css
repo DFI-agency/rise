@@ -330,18 +330,25 @@ span.circle-border {
   border-radius: 0;
 }
 
-
 .btn:not([class*='primary']), .btn--rise {
   border-radius: 100px;
   border-width: 2px;
   font-size: 1.4em;
   border-color: orange !important;
   color: orange;
+
+  padding-top: 0.46428571em;
+  padding-bottom: 0.46428571em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 
 .btn--rise-orange i.material-icons {
   font-size: 1.8em;
   vertical-align: middle;
   color: #ffb140;
+}
 
+.color--white {
+  color: #fff !important;
 }
