@@ -306,3 +306,11 @@ span.circle-border {
 .btn {
   font-weight: 500;
 }
+
+.border--grey {
+  border-color: #eee;
+}
+
+.boxed.no-border-radius {
+  border-radius: 0;
+}
