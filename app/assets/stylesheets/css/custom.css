@@ -365,6 +365,7 @@ span.circle-border {
 
 .flickity-prev-next-button:not(:hover) {
   opacity: 1;
+  background: #FF4500;
   font-size: 20px;
 }
 
@@ -420,4 +421,53 @@ h4 {
     position: relative;
     overflow: hidden;
     padding: 0.75em 1.5em;
+}
+
+
+#principles .feature__body h4 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  height: 70px;
+  vertical-align: text-bottom;
+  position: relative;
+  display: block;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+
+}
+
+#principles .boxed.boxed--lg {
+    padding: 2.5em;
+}
+
+#principles .feature__body h6 {
+    color: #FF4500;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#principles .feature__body p.lead {
+  font-size: 1.1em;
+  line-height: 22px;
+  color: #333;
+}
+
+
+.flickity-prev-next-button.next {
+    right: -25px;
+    box-shadow: 1px 1px 1px #333;
+}
+
+.flickity-prev-next-button.previous {
+    left: -25px;
+    box-shadow: 1px 1px 1px #333;
+}
+
+.flickity-prev-next-button:hover {
+  font-size: 20px;
+  background: black;
 }
