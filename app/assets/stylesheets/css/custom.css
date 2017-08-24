@@ -360,7 +360,7 @@ span.circle-border {
 
 
 .advisors h4 a {
-  color: #F0DC28 !important
+  color: #1574B5 !important
 }
 
 .flickity-prev-next-button:not(:hover) {
@@ -402,4 +402,22 @@ body::-webkit-scrollbar-thumb {
 
 .menu-horizontal > li > a {
   border-bottom: 5px solid transparent;
+}
+
+h4 {
+  line-height: 28px;
+}
+
+.advisors h4 {
+  margin: 0px;
+}
+
+.advisors h5 {
+  line-height: 20px;
+}
+
+.advisors .boxed {
+    position: relative;
+    overflow: hidden;
+    padding: 0.75em 1.5em;
 }
