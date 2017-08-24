@@ -381,3 +381,25 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }*/
+
+
+.menu-horizontal > li:not(:hover) > a {
+  opacity: .5;
+  color: #1574b5;
+  border-bottom: 5px solid transparent;
+  line-height: 60px;
+  padding: 33px 0;
+}
+
+.menu-horizontal > li:hover > a {
+  color: #1574b5;
+  opacity: 1;
+  border-bottom: 5px solid #1574b5;
+  line-height: 60px;
+  padding: 33px 0;
+}
+
+
+.menu-horizontal > li > a {
+  border-bottom: 5px solid transparent;
+}
