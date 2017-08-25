@@ -473,3 +473,12 @@ h4 {
   font-size: 20px;
   background: black;
 }
+
+
+#activities .tabs-container .tab__content {
+ border: 1px solid #ECECEC; border-radius: 6px; padding: 30px 40px;
+}
+
+#activities .tabs-container .tab__content p {
+ text-align: ; margin: 0; line-height: 24px; font-style:; opacity: .5; font-size: 1.2em
+ }
