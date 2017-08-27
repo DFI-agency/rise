@@ -19,4 +19,7 @@ class PagesController < ApplicationController
   def research
   end
 
+  def contact_us
+  end
+
 end
