@@ -509,3 +509,19 @@ ul.menu-vertical {
 .dropdown__content hr {
   margin-bottom: 20px;
 }
+
+.opacity-40 {
+   opacity: .40 !important;
+}
+
+.dropdown__content .h3 {
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+.play-button.box-shadow {
+  box-shadow: 1px 1px 35px rgba(14, 45, 83, .5);
+  border: 2px solid #15457f;
+  border-radius: 100px;
+
+}
