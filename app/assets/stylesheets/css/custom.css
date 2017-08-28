@@ -124,7 +124,7 @@ h1, h2, h3, h4 {
 }
 
 .color--purple {
-  color: #5800a5;
+  color: #E2243B;
 }
 
 
@@ -385,7 +385,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .menu-horizontal > li:not(:hover) > a {
-  opacity: .5;
+  opacity: 1;
   color: #1574b5;
   border-bottom: 5px solid transparent;
   line-height: 60px;
@@ -480,4 +480,32 @@ h4 {
 
 #activities .tabs-container .tab__content p {
  margin: 0; line-height: 24px; opacity: .5; font-size: 1.2em;
+}
+
+.bar .logo {
+  max-height: 2.4em;
+  line-height: 1px;
+  position: absolute;
+  max-width: none;
+}
+
+
+.dropdown .dropdown__content:not([class='bg--dark']) .menu-vertical a {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+ul.menu-vertical {
+    line-height: 1.6em;
+}
+
+.dropdown__content h4 {
+  font-weight: normal;
+  font-size: 2em;
+  color: orange;
+}
+
+.dropdown__content hr {
+  margin-bottom: 20px;
 }

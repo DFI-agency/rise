@@ -1,5 +1,5 @@
 class DataCenterController < ApplicationController
-  layout 'application'
+  layout 'comingsoon'
 
   def landing
   end

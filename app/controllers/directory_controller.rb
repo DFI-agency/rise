@@ -1,5 +1,5 @@
 class DirectoryController < ApplicationController
-  layout 'application'
+  layout 'comingsoon'
 
   def landing
   end
