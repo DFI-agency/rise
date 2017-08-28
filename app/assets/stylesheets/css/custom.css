@@ -520,7 +520,7 @@ ul.menu-vertical {
 }
 
 .play-button.box-shadow {
-  box-shadow: 1px 1px 35px rgba(14, 45, 83, .5);
+  box-shadow: 1px 1px 5px rgba(14, 45, 83, .25);
   border: 2px solid #15457f;
   border-radius: 100px;
 
