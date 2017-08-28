@@ -583,3 +583,7 @@ font-size: .85em;
     cursor: pointer;
     background: transparent;
 }
+
+.z-index-front {
+  z-index: 99999;
+}
