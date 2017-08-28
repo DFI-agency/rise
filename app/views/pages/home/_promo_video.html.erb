@@ -1,14 +1,20 @@
-<section id="our_work" class="imagebg bg-gradient-video videobg height-50 text-center box-shadow-light" data-overlay="9">
+<section id="our_work"  class="imagebg bg-gradient-video videobg height-50 text-center box-shadow-light" data-overlay="9">
   <div class="youtube-background" data-video-url="https://youtu.be/fyqR28x0-Wo" data-start-at="10"></div>
-  <div class="background-image-holder">
-    <img alt="image" src="poster.jpg" />
-  </div>
   <div class="container pos-vertical-center">
+
     <h1>"...transforming the practice of research and evaluation."</h1>
     <h3 class="color--bright-yellow title-font-alt">Dr. Shaun R. Harper, Co-Director of Rise</h3>
     <br/>
-    <p class="text-center">
-      <%= image_tag("rise_assets/play-button.png", class: "play-button box-shadow")%>
-    </p>
+    <div class="modal-instance">
+      <div class="modal-container">
+        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
+          <iframe src="https://www.youtube.com/embed/fyqR28x0-Wo" allowfullscreen="allowfullscreen"></iframe>
+        </div>
+        <!--end of modal-content-->
+      </div>
+      <!--end of modal-container-->
+      <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
+    </div>
+    <!--end video-->
   </div>
 </section>
