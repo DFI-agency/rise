@@ -523,5 +523,22 @@ ul.menu-vertical {
   box-shadow: 1px 1px 5px rgba(14, 45, 83, .25);
   border: 2px solid #15457f;
   border-radius: 100px;
+}
 
+
+.dropdown .dropdown__content ul.issues h5 {
+  margin-bottom: 0px;
+  color: #000;
+  white-space: normal;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+.dropdown .dropdown__content ul.issues li {
+  margin-bottom: 15px;
+}
+
+ul.issues li h5 + p {
+font-weight: normal;
+font-size: .85em;
 }

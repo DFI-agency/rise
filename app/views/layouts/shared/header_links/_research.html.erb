@@ -3,7 +3,7 @@
   <div class="dropdown__container">
     <div class="container">
       <div class="row">
-        <div class="dropdown__content dropdown__content--md col-md-10">
+        <div class="dropdown__content dropdown__content--md col-md-12">
             <div class="pos-absolute col-md-4 imagebg hidden-sm hidden-xs bg-gradient-video" data-overlay="9">
               <div class="background-image-holder">
                   <%= image_tag("rise_assets/issue_briefs/smedley/hero.png") %>
@@ -11,41 +11,59 @@
               <div class="container pos-vertical-center">
                   <div class="row">
                       <div class="col-md-10 col-md-offset-1">
-                          <span class="h3 color--white">Forward-thinking. Principled.</span>
-                          <p>Examinations of phenomena and relevant issues affecting boys and men of color.</p>
+                          <span class="h3 color--white type--bold">Forward-thinking. Principled.</span>
+                          <p class="lead no-margin">Examinations of phenomena and relevant issues affecting boys and men of color.</p>
                           <a href="<%= issues_home_url %>" class="btn type--uppercase">
-                              <span class="btn__text">
-                                View Briefs
-                              </span>
+                            <span class="btn__text">
+                              View Briefs
+                              <i class="material-icons color--white">&#xE315;</i>
+                            </span>
                           </a>
+                          <%#= link_to "RISE Research Home", pages_research_path, class: "btn type--uppercase" %>
                       </div>
                   </div>
                   <!--end of row-->
               </div>
           </div>
           <div class="col-md-8 col-md-offset-4">
+            <h4 class="no-margin">Our Research</h4>
+            <hr/>
             <div class="row">
               <div class="col-sm-6">
-                <h4 class="no-margin">Our Research</h4>
-                <hr/>
-                <ul class="menu-vertical">
+                <ul class="menu-vertical issues">
                   <li>
-                    <%= link_to "RISE Research Home", issues_home_path %>
+                      <%= link_to issues_post1_path do %>
+                        <h5>Where are our american indian/alaskan native boys and young men?</h5>
+                        <p class="no-margin title-font-alt">by Villegas</p>
+                      <% end %>
                   </li>
                   <li>
-                      <%= link_to "Where are our american indian/alaskan native boys and young men?", issues_post1_path %>
+                      <%= link_to issues_post2_path do %>
+                        <h5>Advancing Culturally Responsive Evaluations for Boys and Men of Color</h5>
+                        <p class="no-margin title-font-alt">by Yu, Lewis-Charp, Inouye</p>
+                      <% end %>
                   </li>
                   <li>
-                      <%= link_to "Advancing Culturally Responsive Evaluations for Boys and Men of Color", issues_post2_path %>
+                      <%= link_to issues_post4_path do %>
+                      <h5>Expanding Access to High Opportunity Neighborhoods for Boys and Men of Color</h5>
+                      <p class="no-margin title-font-alt">by Smedley</p>
+                      <% end %>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="menu-vertical issues">
+                  <li>
+                      <%= link_to issues_post4_path do %>
+                        <h5>Tools for Addressing the Disproportionate Discipline of Boys of Color in Schools</h5>
+                        <p class="no-margin title-font-alt">by Godsil</p>
+                      <% end %>
                   </li>
                   <li>
-                      <%= link_to "Expanding Access to High Opportunity Neighborhoods for Boys and Men of Color", issues_post3_path %>
-                  </li>
-                  <li>
-                      <%= link_to "Tools for Addressing the Disproportionate Discipline of Boys of Color in Schools", issues_post4_path %>
-                  </li>
-                  <li>
-                      <%= link_to "The Significance of Data Disaggregation in the Study of Boys and Men of Color", issues_post5_path %>
+                      <%= link_to issues_post5_path do %>
+                        <h5>The Significance of Data Disaggregation in the Study of Boys and Men of Color</h5>
+                        <p class="no-margin title-font-alt">by Tarenishi, Nguyen</p>
+                      <% end %>
                   </li>
                 </ul>
               </div>
