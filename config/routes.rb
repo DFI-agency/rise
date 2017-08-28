@@ -46,5 +46,18 @@ Rails.application.routes.draw do
 
   get 'pages/contact_us'
 
+
+
+
+
+
+
+
+  get "issues/download_post1"
+  get "issues/download_post2"
+  get "issues/download_post3"
+  get "issues/download_post4"
+  get "issues/download_post5"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
