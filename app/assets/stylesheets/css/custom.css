@@ -261,6 +261,12 @@ hr {
 }
 
 
+[data-overlay].bg-gradient-dark:before {
+  background: -moz-linear-gradient(top, rgba(22,43,75,0.25) 0%, rgba(22,43,75,0.35) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(22,43,75,0.25) 0%,rgba(22,43,75,0.35) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(22,43,75,0.25) 0%,rgba(22,43,75,0.35) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
 
 /*Research Gradients*/
 
@@ -313,7 +319,7 @@ background: linear-gradient(to bottom, rgba(22,43,75,0.25) 0%,rgba(22,43,75,0.35
 span.circle-border {
   border: 1px solid #0e2d53;
   border-radius: 100%;
-  padding: 10px;
+  padding: 7px 9px;
   margin: 0;
   width: 40px;
   height: 40px;
@@ -322,7 +328,7 @@ span.circle-border {
   display: inline-block;
   line-height: 20px;
   font-weight: 400;
-  font-size: .75em !important;
+  font-size: 1.2em !important;
   background: #0e2d53;
   color: #fff;
 }
