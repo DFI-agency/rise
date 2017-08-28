@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require css/bootstrap
+ *= require css/stack-interface
+ *= require css/socicon
+ *= require css/lightbox.min
+ *= require css/flickity
+ *= require css/iconsmind
+ *= require css/jquery.steps
+ *= require css/theme
+ *= require css/custom
+ *= require css/font-roboto
+
+ */
+
+
+ @font-face {
+   font-family: 'iconsmind';
+   src: url('<%= asset_path("iconsmind.eot") %>');
+   src: url('<%= asset_path("iconsmind.eot#iefix") %>') format('embedded-opentype'),
+        url('<%= asset_path("iconsmind.woff") %>') format('woff'),
+        url('<%= asset_path("iconsmind.ttf") %>') format('truetype');
+    font-weight: normal;
+   	font-style: normal;
+ }
+
+
+
+ @font-face {
+   font-family: 'socicon';
+   src: url('<%= asset_path("socicon.eot") %>');
+   src: url('<%= asset_path("socicon.eot#iefix") %>') format('embedded-opentype'),
+        url('<%= asset_path("socicon.woff") %>') format('woff'),
+        url('<%= asset_path("socicon.ttf") %>') format('truetype'),
+        url('<%= asset_path("socicon.svg") %>') format('svg');
+    font-weight: normal;
+   	font-style: normal;
+ }
+
+
+
+ @font-face {
+   font-family: 'stack-interface';
+   src: url('<%= asset_path("stack-interface.eot") %>');
+   src: url('<%= asset_path("stack-interface.eot#iefix") %>') format('embedded-opentype'),
+        url('<%= asset_path("stack-interface.woff2") %>') format('woff2'),
+        url('<%= asset_path("stack-interface.woff") %>') format('woff'),
+        url('<%= asset_path("stack-interface.ttf") %>') format('truetype'),
+        url('<%= asset_path("stack-interface.svg") %>') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
