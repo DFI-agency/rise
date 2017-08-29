@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="222px" height="67px" viewBox="0 0 222 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>btn/hero/learn-more</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="123.141457%" x2="57.2970615%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BC4422" offset="0%"></stop>
+            <stop stop-color="#F3790D" offset="48.986199%"></stop>
+            <stop stop-color="#FFEA00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RISE-Home-Page-Concept-3" transform="translate(-130.000000, -2088.000000)">
+            <g id="Data-Center" transform="translate(0.000000, 1654.000000)">
+                <g id="Group-9" transform="translate(130.000000, 95.000000)">
+                    <g id="btn/learn-more" transform="translate(1.000000, 340.000000)">
+                        <path d="M1.38777878e-17,32.5 C1.38777878e-17,14.5507456 14.5411989,0 32.4913359,0 L187.508664,0 C205.453133,0 220,14.5467991 220,32.5 L220,32.5 C220,50.4492544 205.458801,65 187.508664,65 L32.4913359,65 C14.5468666,65 1.38777878e-17,50.4532009 1.38777878e-17,32.5 L1.38777878e-17,32.5 Z" id="Combined-Shape" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                        <text id="LEARN-MORE" font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#EE6431">
+                            <tspan x="64.9042969" y="41">ENTER</tspan>
+                        </text>
+                        <polygon id="Page-1" fill="#EE6431" fill-rule="evenodd" transform="translate(149.695000, 34.871039) scale(-1, 1) rotate(-360.000000) translate(-149.695000, -34.871039) " points="155.286447 26.8118548 153.724592 25.25 144.103553 34.8710387 153.724592 44.4920774 155.286447 42.9302226 147.641477 34.8710387"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
