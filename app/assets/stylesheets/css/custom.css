@@ -595,9 +595,6 @@ font-size: .85em;
 }
 
 
-.dropdown .dropdown__content:not([class='bg--dark']) .menu-vertical a {
-    white-space: pre-wrap;
-}
 
 .box-shadow-hover:hover {
   box-shadow: 1px 10px 15px #ccc;
