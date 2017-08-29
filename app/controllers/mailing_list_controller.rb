@@ -1,5 +1,5 @@
 class MailingListController < ApplicationController
-  layout 'application'
+  layout 'comingsoon'
 
   def submit
   end

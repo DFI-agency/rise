@@ -11,19 +11,19 @@
         </h4>
       </div>
     </div>
-    <br/>
 
     <div class="row">
-      <div class="col-lg-3">
-        <a href="https://twitter.com/risebmoc" target="_blank">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a href="<%= pages_the_pledge_url %>">
           <div class="bg--twitter height-30 text-center box-shadow-light border-rounded boxed box-shadow-hover">
-            <br/>
-            <p><%= image_tag("rise_assets/home/cb_8_social_media_and_promo/twitter.png" , height: "45")%></p>
-            <h3 class="title-font-alt color--white">Follow us <br/>on Twitter</h3>
+            <div class="pos-vertical-center">
+              <p><%= image_tag("rise_assets/home/cb_8_social_media_and_promo/twitter.png" , height: "50")%></p>
+              <h3 class="title-font-alt color--white">Take the <br/>RISE pledge</h3>
+            </div>
           </div>
         </a>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
         <a href="<%= pages_the_pledge_url %>">
           <div class="bg--orange height-30 text-center box-shadow-light border-rounded boxed box-shadow-hover">
             <div class="pos-vertical-center">
@@ -33,27 +33,32 @@
           </div>
         </a>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
         <a href="https://www.instagram.com/uscraceequity/" target="_blank">
           <div class="height-30 text-center box-shadow-light border-rounded boxed box-shadow-hover">
             <div class="pos-vertical-center">
               <p class="">
-                <%= image_tag("rise_assets/home/cb_8_social_media_and_promo/instagram.png" , height: "45", class: "")%>
+                <%= image_tag("rise_assets/home/cb_8_social_media_and_promo/instagram.png" , height: "50", class: "")%>
               </p>
               <h3 class="title-font-alt color--purple">Race & Equity <br/>on Instagram</h3>
             </div>
           </div>
         </a>
       </div>
-      <div class="col-lg-3">
-        <a href="https://rossier.usc.edu/category/news/" target="_blank">
-          <div class="bg--yellow height-30 text-center box-shadow-light border-rounded boxed box-shadow-hover">
-            <div class="pos-vertical-center">
-              <p><%= image_tag("https://i.pinimg.com/originals/61/e2/22/61e222e435fcbf9d0c707ad17d9aac31.png" , height: "45")%></p>
-              <h3 class="title-font-alt color--orange-dark">News from <br/>USC Rossier</h3>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <%= link_to mailing_list_submit_path do %>
+          <div class="imagebg height-30 border--round bg-gradient-blue boxed boxed--sm" data-overlay="">
+            <div class="background-image-holder">
+              <%= image_tag("rise_assets/mailing-list/mailing-list@2x.png")%>
+            </div>
+            <div class="pos-vertical-center text-center">
+              <p class="">
+                <%= image_tag("rise_assets/home/cb_8_social_media_and_promo/instagram.png" , height: "50", class: "")%>
+              </p>
+              <h3 class="title-font-alt color--yellow">Join Our <br/>Mailing List</h3>
             </div>
           </div>
-        </a>
+        <% end %>
       </div>
     </div>
   </div>
