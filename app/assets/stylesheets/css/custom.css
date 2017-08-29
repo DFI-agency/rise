@@ -608,3 +608,38 @@ font-size: .85em;
 a:hover {
   text-decoration:none;
 }
+
+.padding-h-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.boxed.boxed--xxs {
+  padding: .5em;
+  margin: 0;
+}
+
+.advisor {
+  padding: 30px;
+  margin-bottom: 20px;
+  height: 125px;
+}
+
+.advisor h4 {
+  font-size: 1.2em;
+}
+
+.advisor .row {
+  /*margin: 10px;*/
+}
+
+.advisor img {
+  /*height: 115px;*/
+  width: auto;
+  padding: 15px;
+}
+
+.advisors h5 {
+  line-height: 18px;
+}
