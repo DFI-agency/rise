@@ -59,5 +59,27 @@ Rails.application.routes.draw do
   get "issues/download_post4"
   get "issues/download_post5"
 
+
+
+  get "data_center/criminal_justice_tc"
+  get "data_center/education_attainment_tc_americanindian"
+  get "data_center/education_attainment_tc"
+  get "data_center/heath_insurance_coverage_tc"
+  get "data_center/workforce_tc_americanindian"
+  get "data_center/workforce_tc"
+  get "data_center/raise_graphics_cj_mapsr1"
+  get "data_center/rise_educ1_asianr1"
+  get "data_center/rise_educ1_hisplatr1"
+  get "data_center/rise_educ1_pacislandr1"
+  get "data_center/rise_educationb_regionsonlyr1"
+  get "data_center/rise_graphics_agg_Apr17_fin"
+  get "data_center/criminal_justice_databox"
+  get "data_center/education_attainment_databox"
+  get "data_center/health_insurance_coverage"
+  get "data_center/workforce_databox"
+
+
+
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
