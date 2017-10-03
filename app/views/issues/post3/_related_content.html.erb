@@ -7,7 +7,8 @@
       <div class="col-md-10 col-md-offset-1">
         <div class="row">
           <div class="col-lg-4">
-            <div class="imagebg height-30 border--round bg-gradient-issue-brief-card boxed boxed--sm" data-overlay="9">
+            <%= link_to issues_post4_path do %>
+              <div class="imagebg height-30 border--round bg-gradient-issue-brief-card boxed boxed--sm" data-overlay="9">
               <div class="background-image-holder">
                 <%= image_tag("rise_assets/issue_briefs/godsil/hero.png") %>
               </div>
@@ -23,40 +24,45 @@
                 </div>
               </div>
             </div>
+            <% end %>
           </div>
           <div class="col-lg-4">
-            <div class="imagebg height-30 border--round bg-gradient-issue-brief-card boxed boxed--sm" data-overlay="9">
-              <div class="background-image-holder ">
-                <%= image_tag("rise_assets/issue_briefs/yu/hero.png") %>
-              </div>
-              <div class="container pos-vertical-center">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h4>
-                      Advancing Culturally Responsive Evaluations for Boys and Men of Color
-                    </h4>
-                    <hr/>
-                  <h5 class="title-font-alt">by Villegas</h5>
+            <%= link_to issues_post1_path do %>
+              <div class="imagebg height-30 border--round bg-gradient-issue-brief-card boxed boxed--sm" data-overlay="9">
+                <div class="background-image-holder ">
+                  <%= image_tag("rise_assets/issue_briefs/yu/hero.png") %>
+                </div>
+                <div class="container pos-vertical-center">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h4>
+                        Advancing Culturally Responsive Evaluations for Boys and Men of Color
+                      </h4>
+                      <hr/>
+                    <h5 class="title-font-alt">by Villegas</h5>
+                  </div>
                 </div>
               </div>
-            </div>
+            <% end %>
           </div>
         </div>
         <div class="imagebg height-30 border--round bg-gradient-issue-brief-card boxed boxed--sm" data-overlay="9">
-            <div class="background-image-holder">
-                <%= image_tag("rise_assets/issue_briefs/teranishi/hero.png") %>
-            </div>
-            <div class="container pos-vertical-center">
-                <div class="row">
-                  <div class="col-sm-12">
-                      <h4>
-                        The Significance of Data Disaggregation in the Study of Boys and Men of Color
-                      </h4>
-                      <hr/>
-                      <h5 class="title-font-alt">by Tarenishi, Nguyen</h5>
+            <%= link_to issues_post5_path do %>
+              <div class="background-image-holder">
+                  <%= image_tag("rise_assets/issue_briefs/teranishi/hero.png") %>
+              </div>
+              <div class="container pos-vertical-center">
+                  <div class="row">
+                    <div class="col-sm-12">
+                        <h4>
+                          The Significance of Data Disaggregation in the Study of Boys and Men of Color
+                        </h4>
+                        <hr/>
+                        <h5 class="title-font-alt">by Tarenishi, Nguyen</h5>
+                    </div>
                   </div>
-                </div>
-            </div>
+              </div>
+            <% end %>
         </div>
       </div>
       </div>
