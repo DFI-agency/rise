@@ -12,7 +12,7 @@ class DataCenterController < ApplicationController
 
 
 
-  def criminal_justice_tc
+  def custody_rates_2007_2011_race_ethnicity
     send_file(
       "#{Rails.root}/public/downloads/xlsx/criminal_justice_tc.xlsx",
       filename: "criminal_justice_tc.xlsx",
@@ -59,10 +59,6 @@ class DataCenterController < ApplicationController
       type: "application/xlsx"
     )
   end
-
-
-
-
 
 
   def raise_graphics_cj_mapsr1
@@ -144,5 +140,89 @@ class DataCenterController < ApplicationController
       type: "application/docx"
     )
   end
+
+
+
+  # new downloads
+
+  def custody_rates_2007_2011_race_ethnicity
+    send_file(
+      "#{Rails.root}/public/downloads/pdf/Custody Rates (2007-2011)_ Race_Ethnicity.pdf",
+      filename: "Custody Rates (2007-2011)_ Race_Ethnicity.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def custody_rates_2007_2011_race_ethnicity_png
+    send_file(
+      "#{Rails.root}/public/downloads/pdf/Custody Rates 2007-2011_ Race_Ethnicity.png",
+      filename: "Custody Rates 2007-2011_ Race_Ethnicity.png",
+      type: "application/pdf"
+    )
+  end
+
+  def employment_status_2006_2010_race_ethnicity
+    send_file(
+      "#{Rails.root}/public/downloads/docx/Employment Status (2006-2010)_ Race_Ethnicity.pdf",
+      filename: "Employment Status (2006-2010)_ Race_Ethnicity.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def highest_level_of_education_2006_2010_ethnicity_race
+    send_file(
+      "#{Rails.root}/public/downloads/docx/Highest Level of Education (2006-2010)_ Race_Ethnicity.pdf",
+      filename: "Highest Level of Education (2006-2010)_ Race_Ethnicity.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def highest_level_of_education_asian
+    send_file(
+      "#{Rails.root}/public/downloads/pdf/Highest Level of Education_ Asian.pdf",
+      filename: "Highest Level of Education_ Asian.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def highest_level_of_education_hispanic
+    send_file(
+      "#{Rails.root}/public/downloads/docx/Highest Level of Education_ Hispanic_Latino.pdf",
+      filename: "Highest Level of Education_ Hispanic_Latino.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def highest_level_of_education_pacific_islander
+    send_file(
+      "#{Rails.root}/public/downloads/pdf/Highest Level of Education_ Pacific Islander.pdf",
+      filename: "Highest Level of Education_ Pacific Islander.pdf",
+      type: "application/pdf"
+    )
+  end
+
+
+  def raise_graphics_cj_maps
+    send_file(
+      "#{Rails.root}/public/downloads/docx/raise_graphics_cj_mapsr1.pdf",
+      filename: "raise_graphics_cj_mapsr1.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def us_miliatry_status_2006_2010
+    send_file(
+      "#{Rails.root}/public/downloads/pdf/US Military Status (2006-2010)_ Race_Ethnicity.pdf",
+      filename: "US Military Status (2006-2010)_ Race_Ethnicity.pdf",
+      type: "application/pdf"
+    )
+  end
+
+
+
+
+
+
+
 
 end
