@@ -1,5 +1,29 @@
 Rails.application.routes.draw do
 
+  get 'experiences/wellness'
+
+  get 'experiences/entertainment'
+
+  get 'experiences/setting'
+
+  get 'experiences/people'
+
+  get 'experiences/culture'
+
+  get 'experiences/budget'
+
+  get 'experiences/rank'
+
+  get 'experiences/activity'
+
+  get 'experiences/venue'
+
+  get 'experiences/occassionbusiness'
+
+  get 'experiences/learning'
+
+  get 'experiences/lifestyle'
+
   root 'pages#home'
 
   get 'mailing_list/submit'
