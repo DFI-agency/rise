@@ -219,6 +219,49 @@ class DataCenterController < ApplicationController
   end
 
 
+  def heatlh
+  end
+
+  def education
+  end
+
+  def criminal_justice
+  end
+
+  def workforce_development
+  end
+
+
+
+  def black
+  end
+
+  def latino
+  end
+
+  def native_american
+  end
+
+  def asian_american
+  end
+
+
+
+
+  def asia
+  end
+
+  def pacific_islands
+  end
+
+  def latin_america
+  end
+
+  def north_america
+  end
+
+
+
 
 
 

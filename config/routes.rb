@@ -1,89 +1,72 @@
 Rails.application.routes.draw do
 
-  get 'experiences/wellness'
+  get 'fieldscans/fs1'
 
-  get 'experiences/entertainment'
+  get 'fieldscans/fs2'
 
-  get 'experiences/setting'
+  get 'fieldscans/fs3'
 
-  get 'experiences/people'
+  get 'fieldscans/fs4'
 
-  get 'experiences/culture'
+  get 'fieldscans/fs5'
 
-  get 'experiences/budget'
+  get 'fieldscans/fs6'
 
-  get 'experiences/rank'
+  get 'fieldscans/fs7'
 
-  get 'experiences/activity'
+  get 'fieldscans/fs8'
 
-  get 'experiences/venue'
-
-  get 'experiences/occassionbusiness'
-
-  get 'experiences/learning'
-
-  get 'experiences/lifestyle'
+  get 'fieldscans/home'
 
   root 'pages#home'
 
   get 'mailing_list/submit'
-
   get 'mailing_list/confirmation_page'
 
-  get 'data_center/landing'
-
+  get 'data_center/landing', to: 'data_center#landing', path: '/data-center'
   get 'data_center/coming'
-
   get 'data_center/soon'
 
   get 'directory/landing'
-
   get 'directory/result1'
-
   get 'directory/result2'
 
   get 'issues/home'
-
   get 'issues/results'
-
   get 'issues/post1'
-
   get 'issues/post2'
-
   get 'issues/post3'
-
   get 'issues/post4'
-
   get 'issues/post5'
 
   get 'pages/home'
-
   get 'pages/about'
-
   get 'pages/the_pledge'
-
   get 'pages/ideation_challenge'
-
   get 'pages/grad_prep'
-
   get 'pages/research'
-
   get 'pages/contact_us'
 
+  get 'data_center/health', to: 'data_center#health', path: 'data-center/health', as: 'health'
+  get 'data_center/education', to: 'data_center#education', path: 'data-center/education', as: 'education'
+  get 'data_center/criminal_justice', to: 'data_center#criminal_justice', path: 'data-center/criminal-justice', as: 'justice'
+  get 'data_center/workforce_development', to: 'data_center#workforce_development', path: 'data-center/workforce-development', as: 'workforce'
 
+  get 'data_center/black', to: 'data_center#black', path: 'data-center/black'
+  get 'data_center/latino', to: 'data_center#latino', path: 'data-center/latino'
+  get 'data_center/native_american', to: 'data_center#native_american', path: 'data-center/native-american'
+  get 'data_center/asian_american', to: 'data_center#asian_american', path: 'data-center/asian-american'
 
-
-
-
-
+  get 'data_center/asia', to: 'data_center#asian_american', path: 'data-center/asian-american'
+  get 'data_center/pacific_islands', to: 'data_center#pacific_islands', path: 'data-center/pacific-islands'
+  get 'data_center/latin_america', to: 'data_center#latin_america', path: 'data-center/latin-america'
+  get 'data_center/north_america', to: 'data_center#north_america', path: 'data-center/north-america'
 
   get "issues/download_post1"
   get "issues/download_post2"
   get "issues/download_post3"
   get "issues/download_post4"
   get "issues/download_post5"
-
-
 
   get "data_center/criminal_justice_tc"
   get "data_center/education_attainment_tc_americanindian"

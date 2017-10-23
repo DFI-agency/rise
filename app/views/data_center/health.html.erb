@@ -1,0 +1,31 @@
+<%= render "directory/header" %>
+
+<section class="space--sm">
+ <div class="container">
+   <div class="masonry">
+     <div class="row">
+       <div class="col-md-6">
+         <h4 class="margin-bottom-10 title-font-alt">Rise Experts -- by Domain</h4>
+         <p class="">Explore hundreds of RISE experts.</p>
+       </div>
+       <div class="col-md-6">
+         <div class="masonry-filter-container pull-right">
+           <span class="title-font-alt">Choose Domain:</span>
+           <div class="masonry-filter-holder">
+              <div class="masonry__filters" data-filter-all-text="All Categories"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <hr class="no-margin"/>
+     <div class="row">
+       <div class="col-md-3 hidden-sm">
+         <%= render "directory/sidebar" %>
+       </div>
+       <div class="col-md-9">
+         <%= render "directory/search_results" %>
+       </div>
+      </div>
+    </div>
+  </div>
+ </section>

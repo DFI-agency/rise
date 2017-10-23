@@ -6,7 +6,7 @@
       <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
         <h4 class="color--orange title-font-alt text-center"> Geography + Location</h4>
         <hr class="center" style="width: 20%;"/>
-        <h1 class="color--orange text-center">Explore Data and Research by Field</h1>
+        <h1 class="color--orange text-center">Explore Data and Research by Geographic Region</h1>
         <h4 class="text-center">
           Explore the latest research, from RISE research, academic initiatives, experts and more.
         </h4>
@@ -18,37 +18,82 @@
     <div class="row">
         <div class="col-sm-3">
             <a href="#" class="block">
-                <div class="feature boxed boxed--border border--round text-center">
-                    <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-education.svg", class: "no-margin image--lg")%>
-                    <span class="h4 color--primary">Education</span>
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-3">
-            <a href="#" class="block">
-                <div class="feature boxed boxed--border border--round text-center">
-                    <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-workforce.svg" , class: "no-margin image--lg")%>
-                    <span class="h4 color--primary">Workforce Development</span>
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-3">
-            <a href="#" class="block">
-                <div class="feature boxed boxed--border border--round text-center">
-                    <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-health.svg" , class: "no-margin image--lg")%>
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <%= image_tag("rise_assets/locations/asia.png", class: "no-margin image--lg")%>
                     <br/>
-                    <span class="h4 color--primary">Health</span>
+                    <span class="h4 color--primary">Asia</span>
+                    <form>
+                        <div class="input-select">
+                            <select>
+                                <option selected="" value="Default">Asian-American</option>
+                                <option value="Small">East Asian</option>
+                                <option value="Medium">Southeast Asian</option>
+                                <option value="Larger">South Asian</option>
+                            </select>
+                        </div>
+                    </form>
                 </div>
             </a>
+
         </div>
         <div class="col-sm-3">
             <a href="#" class="block">
-                <div class="feature boxed boxed--border border--round text-center">
-                    <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-justice.svg" , class: "no-margin image--lg")%>
+              <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                <%= image_tag("rise_assets/locations/pacific_rim.png", class: "no-margin image--lg")%>
+                <span class="h4 color--primary">Pacific Islands</span>
+                <form>
+                  <div class="input-select">
+                    <select>
+                        <option selected="" value="Default">Pacific Islander</option>
+                        <option value="Small">Micronesian</option>
+                        <option value="Medium">Melanesian</option>
+                        <option value="Larger"></option>
+                    </select>
+                  </div>
+                </form>
+              </div>
+            </a>
+
+        </div>
+        <div class="col-sm-3">
+            <a href="#" class="block">
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <%= image_tag("rise_assets/locations/latin.png", class: "no-margin image--lg")%>
                     <br/>
-                    <span class="h4 color--primary">Criminal Justice</span>
+                    <span class="h4 color--primary">Latin America</span>
+                    <form>
+                      <div class="input-select">
+                        <select>
+                            <option selected="" value="Default">Pacific Islander</option>
+                            <option value="Small">Micronesian</option>
+                            <option value="Medium">Melanesian</option>
+                            <option value="Larger"></option>
+                        </select>
+                      </div>
+                    </form>
                 </div>
             </a>
+
+        </div>
+        <div class="col-sm-3">
+            <a href="#" class="block">
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <%= image_tag("rise_assets/locations/us.png", class: "no-margin image--lg")%>
+                    <br/>
+                    <span class="h4 color--primary">North America</span>
+                    <form>
+                      <div class="input-select">
+                        <select>
+                            <option selected="" value="Default">Pacific Islander</option>
+                            <option value="Small">Micronesian</option>
+                            <option value="Medium">Melanesian</option>
+                            <option value="Larger"></option>
+                        </select>
+                      </div>
+                    </form>
+                </div>
+            </a>
+
         </div>
       </div>
     </div>
