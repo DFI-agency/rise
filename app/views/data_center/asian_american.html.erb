@@ -1,0 +1,68 @@
+<%= render "directory/header" %>
+
+<section class="space--sm">
+ <div class="container">
+
+   <div class="tabs-container" data-content-align="center">
+       <ul class="tabs bg--secondary ">
+           <li class="active">
+               <div class="tab__title">
+                 <%= link_to data_center_education_path class: "block" do %>
+                    <span class="h5">Education</span>
+                  <% end %>
+               </div>
+               <div class="tab__content">
+
+               </div>
+           </li>
+           <li>
+               <div class="tab__title">
+                   <%= link_to data_center_health_path class: "block" do %>
+                      <span class="h5">Health</span>
+                   <% end %>
+               </div>
+           </li>
+           <li>
+               <div class="tab__title">
+                 <%= link_to data_center_workforce_development_path class: "block" do %>
+                    <span class="h5">Workforce</span>
+                  <% end %>
+               </div>
+           </li>
+           <li>
+               <div class="tab__title">
+                 <%= link_to data_center_criminal_justice_path class: "block" do %>
+                    <span class="h5">Criminal Justice</span>
+                  <% end %>
+               </div>
+           </li>
+       </ul>
+   </div>
+   <div class="masonry">
+     <div class="row">
+       <div class="col-md-6">
+         <p class="no-margin">By Field Study</p>
+         <h2 class="margin-bottom-10 title-font-alt"> Workforce Development</h4>
+
+       </div>
+       <div class="col-md-6">
+         <div class="masonry-filter-container pull-right">
+           <span class="title-font-alt">Filter by Type:</span>
+           <div class="masonry-filter-holder">
+              <div class="masonry__filters" data-filter-all-text="All Categories"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <hr class="no-margin"/>
+     <div class="row">
+       <div class="col-md-3 hidden-sm">
+         <%= render "directory/sidebar" %>
+       </div>
+       <div class="col-md-9">
+         <%= render "data_center/ethnicity/asian_american/search_results" %>
+       </div>
+      </div>
+    </div>
+  </div>
+ </section>

@@ -1,0 +1,70 @@
+<style media="screen">
+.card-1 .card__body {
+  border-bottom: 1px solid #ececec;
+   padding-bottom: 0.30em;
+   margin-bottom: 0.65em;
+}
+.label {
+  min-width: 0;
+  font-size: 8.5px;
+}
+</style>
+
+
+<div class="masonry__container">
+    <div class="masonry__item col-sm-4"></div>
+
+
+    <div class="masonry__item col-sm-4" data-masonry-filter="Employment Status, Men">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("data-center/workforce/1.png")%>" data-lightbox="true">
+            	<%= image_tag("data-center/workforce/1.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>
+                Employment Status of Males by Race/Ethnicity,
+United States
+              </strong>
+            </p>
+            <h6 class="no-margin">
+              <i class="fa fa-map-marker" aria-hidden="true"></i> 2006-2010
+            </h6>
+          </div>
+          <div class="card__bottom">
+            <span class="label" style="position: inherit; bottom: 10px !important;">Employment Status</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">Men</span>
+            <small class=""></small>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--end item-->
+    <div class="masonry__item col-sm-4" data-masonry-filter="Military Status, Men">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("data-center/workforce/2.png")%>" data-lightbox="true">
+            	<%= image_tag("data-center/workforce/2.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Military Status of Males by Race/Ethnicity,
+United States </strong>
+            </p>
+            <h6 class="no-margin">
+              <i class="fa fa-map-marker" aria-hidden="true"></i> 2006-2010
+            </h6>
+          </div>
+          <div class="card__bottom">
+            <span class="label" style="position: inherit; bottom: 10px !important;">Military Status</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">Men</span>
+          </div>
+      </article>
+    </div>
+</div>
+<!--end of masonry container-->

@@ -1,5 +1,5 @@
 class DataCenterController < ApplicationController
-  layout 'application'
+  layout 'data_center'
 
   def landing
   end
@@ -243,6 +243,9 @@ class DataCenterController < ApplicationController
   end
 
   def asian_american
+  end
+
+  def pacific_islander
   end
 
 

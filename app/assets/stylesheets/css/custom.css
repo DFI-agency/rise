@@ -645,3 +645,9 @@ a:hover {
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
+
+
+.feature-1 p {
+    margin: 0;
+    line-height: 18px;
+}

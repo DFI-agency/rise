@@ -15,41 +15,39 @@
 
     <div class="row">
       <div class="col-sm-3 masonry__item">
-        <div class="card card-2 text-center bg--white">
-          <div class="card__top">
-            <a href="#">
-              <%= image_tag("stock/asian.jpg") %>
-            </a>
+        <%= link_to data_center_asian_american_path class: "block" do %>
+
+          <div class="card card-2 text-center bg--white box-shadow-light">
+            <div class="card__top">
+                <%= image_tag("stock/asian.jpg") %>
+
+            </div>
+            <div class="card__body">
+              <h3 class="no-margin">Asian-American</h3>
+            </div>
           </div>
-          <div class="card__body">
-            <h3 class="no-margin">Asian-American</h3>
-          </div>
-          <div class="card__bottom text-center">
-            View All Data and Research
-          </div>
-        </div>
+        <% end %>
       </div>
       <div class="col-sm-3 masonry__item">
-        <div class="card card-2 text-center bg--white">
-          <div class="card__top">
-            <a href="#">
-              <%= image_tag("stock/black.jpg") %>
-            </a>
+        <%= link_to data_center_black_path class: "block" do %>
+
+          <div class="card card-2 text-center bg--white box-shadow-light">
+            <div class="card__top">
+                <%= image_tag("stock/black.jpg") %>
+
+            </div>
+            <div class="card__body">
+              <h3 class="no-margin">Black</h3>
+            </div>
           </div>
-          <div class="card__body">
-            <h3 class="no-margin">Black</h3>
-          </div>
-          <div class="card__bottom text-center">
-            View All Data and Research
-          </div>
-        </div>
+        <% end %>
       </div>
       <div class="col-sm-3 masonry__item">
-        <div class="card card-2 text-center bg--white">
+        <%= link_to data_center_latino_path class: "block" do %>
+          <div class="card card-2 text-center bg--white box-shadow-light">
           <div class="card__top">
-            <a href="#">
               <%= image_tag("stock/latino.jpg") %>
-            </a>
+
           </div>
           <div class="card__body">
             <h3 class="no-margin">Latinos</h3>
@@ -58,21 +56,22 @@
             View All Data and Research
           </div>
         </div>
+        <% end %>
       </div>
       <div class="col-sm-3 masonry__item">
-        <div class="card card-2 text-center bg--white">
-          <div class="card__top">
-            <a href="#">
-              <%= image_tag("stock/native-indian.jpg") %>
-            </a>
+        <%= link_to data_center_native_american_path class: "block" do %>
+          <div class="card card-2 text-center bg--white box-shadow-light">
+            <div class="card__top">
+                <%= image_tag("stock/native-indian.jpg") %>
+            </div>
+            <div class="card__body">
+              <h3 class="no-margin">Native American</h3>
+            </div>
+            <div class="card__bottom text-center">
+              View All Data and Research
+            </div>
           </div>
-          <div class="card__body">
-            <h3 class="no-margin">Native American</h3>
-          </div>
-          <div class="card__bottom text-center">
-            View All Data and Research
-          </div>
-        </div>
+        <% end %>
       </div>
 
     </div>

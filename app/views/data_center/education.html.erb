@@ -2,6 +2,51 @@
 
 <section class="space--sm">
  <div class="container">
+
+   <div class="tabs-container" data-content-align="center">
+       <ul class="tabs box-shadow-light center ">
+           <li class="active">
+               <div class="tab__title text-center">
+                 <%= link_to data_center_education_path class: "block" do %>
+                  <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-education.svg", class: "no-margin image--xs")%>
+
+                     <span class="h5">Education</span>
+                   <% end %>
+               </div>
+               <div class="tab__content">
+
+               </div>
+           </li>
+           <li>
+               <div class="tab__title text-center">
+                 <%= link_to data_center_workforce_development_path class: "block" do %>
+                 <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-workforce.svg" , class: "no-margin image--xs")%>
+
+                    <span class="h5">Workforce</span>
+                  <% end %>
+               </div>
+           </li>
+           <li>
+               <div class="tab__title text-center">
+                   <%= link_to data_center_health_path class: "block" do %>
+                   <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-health.svg" , class: "no-margin image--xs")%>
+
+                      <span class="h5">Health</span>
+                   <% end %>
+               </div>
+           </li>
+           <li class="">
+               <div class="tab__title text-center">
+                 <%= link_to data_center_criminal_justice_path class: "block" do %>
+                 <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-justice.svg" , class: "no-margin image--xs")%>
+
+                    <span class="h5">Criminal Justice</span>
+                  <% end %>
+               </div>
+           </li>
+       </ul>
+   </div>
+
    <div class="masonry">
      <div class="row">
        <div class="col-md-6">
@@ -11,7 +56,7 @@
        </div>
        <div class="col-md-6">
          <div class="masonry-filter-container pull-right">
-           <span class="title-font-alt">Filter by Type:</span>
+           <span class="title-font-alt">Filter Results:</span>
            <div class="masonry-filter-holder">
               <div class="masonry__filters" data-filter-all-text="All Categories"></div>
            </div>
@@ -21,10 +66,10 @@
      <hr class="no-margin"/>
      <div class="row">
        <div class="col-md-3 hidden-sm">
-         <%= render "directory/sidebar" %>
+         <%= render "data_center/topic/education/sidebar" %>
        </div>
        <div class="col-md-9">
-         <%= render "directory/search_results" %>
+         <%= render "data_center/topic/education/search_results" %>
        </div>
       </div>
     </div>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="responsive, template, portfolio, html, css, javascript, belal, ab belal" />
+    <meta name="author" content="AB Belal">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <title>RISE</title>
+    <%= csrf_meta_tags %>
+
+    <!--favicon icon-->
+    <link rel="icon" href="images/favicon.png">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/font-robotoslab.css" rel="stylesheet" type="text/css" media="all" />
+
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+
+    <style>
+    .image--xs {
+      max-height: 2.2em;
+    }
+    </style>
+
+    <%= favicon_link_tag %>
+
+
+      </head>
+  <body class="">
+
+    <a id="start"></a>
+    <%= render "layouts/shared/header" %>
+
+    <div class="main-container box-shadow-dark">
+      <%= yield %>
+      <%= render "layouts/shared/footer" %>
+    </div>
+    <!--<div class="loader"></div>-->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="material-icons">&#xE316;</i>
+    </a>
+
+    <%= javascript_include_tag 'application' %>
+
+  </body>
+</html>
