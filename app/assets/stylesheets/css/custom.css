@@ -651,3 +651,7 @@ a:hover {
     margin: 0;
     line-height: 18px;
 }
+
+.margin-top-0 {
+  margin-top: 0;
+}

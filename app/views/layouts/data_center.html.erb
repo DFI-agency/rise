@@ -28,6 +28,13 @@
     .image--xs {
       max-height: 2.2em;
     }
+    .tabs li:not(.active) {
+      opacity: .75;
+    }
+
+    .tabs li img {
+      margin-bottom: 5px !important;
+    }
     </style>
 
     <%= favicon_link_tag %>
@@ -40,6 +47,7 @@
     <%= render "layouts/shared/header" %>
 
     <div class="main-container box-shadow-dark">
+      <%= render "data_center/header" %>
       <%= yield %>
       <%= render "layouts/shared/footer" %>
     </div>
