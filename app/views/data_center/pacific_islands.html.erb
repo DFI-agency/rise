@@ -1,0 +1,32 @@
+<%= render "directory/header" %>
+
+<section class="space--sm">
+ <div class="container">
+   <div class="masonry">
+     <div class="row">
+       <div class="col-md-6">
+         <p class="no-margin">By Geographic Region</p>
+         <h2 class="margin-bottom-10 title-font-alt"> Pacfic Islands</h4>
+
+       </div>
+       <div class="col-md-6">
+         <div class="masonry-filter-container pull-right">
+           <span class="title-font-alt">Filter by Type:</span>
+           <div class="masonry-filter-holder">
+              <div class="masonry__filters" data-filter-all-text="All Categories"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <hr class="no-margin"/>
+     <div class="row">
+       <div class="col-md-3 hidden-sm">
+         <%= render "directory/sidebar" %>
+       </div>
+       <div class="col-md-9">
+         <%= render "directory/search_results" %>
+       </div>
+      </div>
+    </div>
+  </div>
+ </section>

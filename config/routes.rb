@@ -57,7 +57,7 @@ Rails.application.routes.draw do
   get 'data_center/native_american', to: 'data_center#native_american', path: 'data-center/native-american'
   get 'data_center/asian_american', to: 'data_center#asian_american', path: 'data-center/asian-american'
 
-  get 'data_center/asia', to: 'data_center#asian_american', path: 'data-center/asian-american'
+  get 'data_center/asia', to: 'data_center#asia', path: 'data-center/asia'
   get 'data_center/pacific_islands', to: 'data_center#pacific_islands', path: 'data-center/pacific-islands'
   get 'data_center/latin_america', to: 'data_center#latin_america', path: 'data-center/latin-america'
   get 'data_center/north_america', to: 'data_center#north_america', path: 'data-center/north-america'

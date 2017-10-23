@@ -1,0 +1,60 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+        <h4 class="color--orange title-font-alt text-center">by field Topic</h4>
+        <hr class="center" style="width: 20%;"/>
+        <h1 class="color--orange text-center">Explore Data and Research by Field</h1>
+        <h4 class="text-center">
+          Explore the latest research, from RISE research, academic initiatives, experts and more.
+        </h4>
+      </div>
+    </div>
+    <br/>
+    <br/>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <%= link_to data_center_education_path class: "block" do %>
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <p>
+                      <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-education.svg", class: "no-margin image--lg")%>
+                    </p>
+                    <span class="h4 color--primary">Education</span>
+                </div>
+            <% end %>
+        </div>
+        <div class="col-sm-3">
+            <%= link_to data_center_workforce_development_path class: "block" do %>
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <p>
+                      <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-workforce.svg" , class: "no-margin image--lg")%>
+                    </p>
+                    <span class="h4 color--primary">Workforce Development</span>
+                </div>
+            <% end %>
+        </div>
+        <div class="col-sm-3">
+            <%= link_to data_center_health_path class: "block" do %>
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <p>
+                      <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-health.svg" , class: "no-margin image--lg")%>
+                    </p>
+                    <span class="h4 color--primary">Health</span>
+                </div>
+            <% end %>
+        </div>
+        <div class="col-sm-3">
+            <%= link_to data_center_criminal_justice_path class: "block" do %>
+                <div class="feature boxed boxed--border border--round text-center box-shadow-light">
+                    <p>
+                      <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-justice.svg" , class: "no-margin image--lg")%>
+                    </p>
+                    <span class="h4 color--primary">Criminal Justice</span>
+                </div>
+            <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
