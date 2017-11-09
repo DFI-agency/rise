@@ -44,6 +44,7 @@ Rails.application.routes.draw do
   get 'pages/the_pledge'
   get 'pages/ideation_challenge'
   get 'pages/grad_prep'
+  get 'pages/grad_prep_application', to: 'pages#grad_prep_application', path: '/grad-prep-academy-application'
   get 'pages/research'
   get 'pages/contact_us'
 
