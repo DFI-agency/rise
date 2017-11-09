@@ -41,7 +41,7 @@ body.boxed-layout {
 
 
 .color--orange {
-  color: #FF4500;
+  color: #FF4500 !important;
 }
 
 .bg--orange {
