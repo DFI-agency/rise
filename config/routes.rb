@@ -1,22 +1,23 @@
 Rails.application.routes.draw do
 
   get 'fieldscans/fs1'
-
   get 'fieldscans/fs2'
-
   get 'fieldscans/fs3'
-
   get 'fieldscans/fs4'
-
   get 'fieldscans/fs5'
-
   get 'fieldscans/fs6'
-
   get 'fieldscans/fs7'
-
   get 'fieldscans/fs8'
-
   get 'fieldscans/home'
+
+  get "fieldscans/download_fs1"
+  get "fieldscans/download_fs2"
+  get "fieldscans/download_fs3"
+  get "fieldscans/download_fs4"
+  get "fieldscans/download_fs5"
+  get "fieldscans/download_fs6"
+  get "fieldscans/download_fs7"
+  get "fieldscans/download_fs8"
 
   root 'pages#home'
 
