@@ -677,3 +677,7 @@ ol.h4 li {
 .margin-top-10 {
   margin-top: 10px !important;
 }
+
+span a {
+  text-decoration: none;
+}
