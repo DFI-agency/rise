@@ -4,28 +4,26 @@
     <div class="container">
       <div class="row">
         <div class="dropdown__content dropdown__content--md col-md-12">
-            <div class="pos-absolute col-md-4 imagebg hidden-sm hidden-xs bg-gradient-video" data-overlay="9">
+            <div class="pos-absolute col-md-5 imagebg hidden-sm hidden-xs bg-gradient-video" data-overlay="9">
               <div class="background-image-holder">
                   <%= image_tag("rise_assets/issue_briefs/smedley/hero.png") %>
               </div>
               <div class="container pos-vertical-center">
                   <div class="row">
-                      <div class="col-md-10 col-md-offset-1">
+                      <div class="col-xs-10 col-xs-offset-1">
                           <span class="h3 color--white type--bold">Forward-thinking. Principled.</span>
-                          <p class="lead no-margin">Examinations of phenomena and relevant issues affecting boys and men of color.</p>
-                          <a href="<%= issues_home_url %>" class="btn type--uppercase">
-                            <span class="btn__text">
-                              View Briefs
-                              <i class="material-icons color--white">&#xE315;</i>
-                            </span>
-                          </a>
-                          <%#= link_to "RISE Research Home", pages_research_path, class: "btn type--uppercase" %>
+                          <p class="lead">Examinations of phenomena and relevant issues affecting boys and men of color.</p>
+                          <p>
+                            <!-- <i class="material-icons color--white">&#xE315;</i> -->
+                            <span><%= link_to "Issue Briefs", issues_home_path, class: "btn" %><span>
+                            <span><%= link_to "Field Scans", fieldscans_home_path, class: "btn" %><span>
+                          </p>
                       </div>
                   </div>
                   <!--end of row-->
               </div>
           </div>
-          <div class="col-md-8 col-md-offset-4">
+          <div class="col-md-7 col-md-offset-5">
             <h4 class="no-margin">Our Research</h4>
             <hr/>
             <div class="row">
