@@ -681,3 +681,93 @@ ol.h4 li {
 span a {
   text-decoration: none;
 }
+
+
+.tabs-container.tabs--vertical .tabs-content > li:not(.active) .tab__content,
+.tabs-container.tabs--vertical .tabs-content > li .tab__content {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.tabs-container.tabs--vertical .tabs-content > li.active .tab__content {
+    animation: fadeIn .5s ease forwards;
+    -webkit-animation: fadeIn .5s ease forwards;
+    backface-visibility: hidden;
+}
+
+.tabs-content > li.active {
+    animation: fadeIn .5s ease forwards;
+    -webkit-animation: fadeIn .5s ease forwards;
+    backface-visibility: hidden;
+}
+
+
+.tabs li.active {
+    opacity: 1;
+    background: #fff;
+}
+
+
+ul.tabs.no-border {
+    border: none;
+}
+
+ul.tabs.no-border li {
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+#activities .tabs-container .tab__content {
+  border-radius: 0 6px 6px 6px;
+}
+
+#activities .tabs-container .tab__content {
+  border: none;
+}
+
+#activities .tabs-container .tab__content p {
+    margin: 0;
+    line-height: 24px;
+    opacity: .75;
+    font-size: 1.2em;
+}
+
+
+.tabs-container.tabs--vertical .tabs-content {
+    width: 85%;
+    float: right;
+    margin-top: 0;
+}
+
+
+.tabs-container.tabs--vertical .tabs li:not(:last-child) {
+    border-right: none;
+    border-bottom: none;
+}
+
+
+.tabs-container.tabs--vertical .tabs {
+    width: 15%;
+    float: left;
+    text-align: right;
+}
+
+.tabs-content li .tab__content {
+  min-height: 400px;
+}
+
+.tabs li.active .tab__title span,
+.tabs li .tab__title span {
+  color: #ffb140;
+  font-weight: bold;
+}
+
+#activities .tabs-container .tab__content {
+    padding: 15px 30px 40px;
+}
+
+#activities .tabs-container .tab__content p {
+    line-height: 20px;
+    opacity: .75;
+    font-size: 1.1em;
+}
