@@ -52,6 +52,12 @@ body.boxed-layout {
   background: #f8f8f8;
 }
 
+.bg--dark-orange {
+  background: #FF4500;
+  opacity: .90;
+
+}
+
 .type--fine-print.color--white {
   opacity: .75;
 }
@@ -703,8 +709,8 @@ span a {
 
 
 .tabs li.active {
-    opacity: 1;
-    background: #fff;
+    opacity: .9;
+    background: #FF4500;
 }
 
 
@@ -753,12 +759,12 @@ ul.tabs.no-border li {
 }
 
 .tabs-content li .tab__content {
-  min-height: 400px;
+  min-height: 350px;
 }
 
 .tabs li.active .tab__title span,
 .tabs li .tab__title span {
-  color: #ffb140;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -767,7 +773,21 @@ ul.tabs.no-border li {
 }
 
 #activities .tabs-container .tab__content p {
-    line-height: 20px;
-    opacity: .75;
-    font-size: 1.1em;
+    line-height: 22px;
+    opacity: 1;
+    font-size: 1.15em;
+    font-weight: normal;
+}
+
+.tab__content hr {
+    margin: 10px 0 20px 0;
+    opacity: 1 !important;
+    border-top-color: #cc3700;
+    border-top-width: 1px;
+    border-bottom-color: #cc3700;
+}
+
+
+h3 {
+  font-weight: 500 !important;
 }
