@@ -1,0 +1,34 @@
+<style media="screen">
+.tabs li:not(.active) {
+  opacity: 1;
+}
+</style>
+
+<%= render "directory/header" %>
+<%= render "directory/education/navigation" %>
+
+
+
+<section class="space--sm">
+ <div class="container">
+   <div class="masonry">
+      <div class="row">
+     <div class="col-md-6">
+       <p class="no-margin">By Field Study</p>
+       <h2 class="margin-bottom-10 title-font-alt"> education</h4>
+     </div>
+     <div class="col-md-6">
+       <div class="masonry-filter-container pull-right">
+         <span class="title-font-alt">Filter By:</span>
+         <div class="masonry-filter-holder">
+            <div class="masonry__filters" data-filter-all-text="All Categories"></div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <br/>
+    <div class="row">
+      <%= render "directory/education/people" %>
+    </div>
+  </div>
+ </section>

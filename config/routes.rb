@@ -31,6 +31,11 @@ Rails.application.routes.draw do
   get 'directory/landing'
   get 'directory/result1'
   get 'directory/result2'
+  get 'directory/health'
+  get 'directory/education'
+  get 'directory/workforce_development'
+  get 'directory/human_services'
+  get 'directory/criminal_justice'
 
   get 'issues/home'
   get 'issues/results'
