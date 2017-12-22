@@ -791,3 +791,30 @@ ul.tabs.no-border li {
 h3 {
   font-weight: 500 !important;
 }
+
+
+/* EXPERT DIRECTORY */
+
+
+.tabs li:not(.active) {
+  opacity: 1;
+}
+
+.masonry-filter-holder {}
+
+.masonry-filter-holder .masonry__filters ul li.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+.masonry-filter-holder .masonry__filters {
+  border-radius: 4px;
+}
+
+.masonry-filter-container {
+  border: 1px solid orange;
+  margin: 0;
+  padding: 0 5px 0 20px;
+  line-height: 0;
+  border-radius: 4px;
+}
