@@ -8,6 +8,56 @@
   min-width: 0;
   font-size: 8.5px;
 }
+
+.boxed.boxed--sm {
+    padding: 0;
+}
+.card__top {
+  border-bottom: 1px solid #eee;
+  padding: 10px 30px;
+  background: #fafafa;
+}
+
+.card__top img {
+
+}
+
+.card-1 .card__body {
+  padding: .8em 1.4em;
+}
+
+.card__bottom {
+  padding: 0.5em 1em 1em 1em;
+}
+
+.card.card-1 {
+  border: none;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+.card.card-1:hover {
+  border: 2px solid orange;
+  box-shadow: 1px 5px 20px #ccc;
+}
+
+p a {
+  line-height: 1.2em;
+}
+
+.icon-left {
+  margin-right: 5px;
+  min-width: 12px;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.masonry-filter-holder .masonry__filters {
+  border: none;
+  background: #ee6431;
+  color: #fff;
+}
+
 </style>
 
 
@@ -15,248 +65,238 @@
     <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3"></div>
 
 
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Black">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/Kenneth Anderson@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Kenneth Anderson</strong>
-            </p>
+    <!-- 1st Row *****************************---->
 
-            <p class="no-margin small">
-              Howard University<br/>
-              District of Columbia, Black<District of Columbiabr/>
-              <a href="http://sph.cuny.edu/people/marilynaguirremolina">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:kenneth.anderson@howard.edu">Email</a>
-            </p>
-          </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
-            <small class=""></small>
-          </div>
-        </div>
-      </article>
-    </div>
-    <!--end item-->
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Hispanic and Latino">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/Kenneth Anderson@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Dorinda	Andrews</strong>
-            </p>
-            <p class="no-margin small">
-              Howard University<br/>
-              District of Columbia, Black<br/>
-              <a href="https://education.howard.edu/academics/department-curriculum-instruction/faculty-profiles">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:kenneth.anderson@howard.edu">Email</a>
-            </p>
-          </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
-          </div>
-      </article>
-    </div>
-    <!--end item-->
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Asian-American">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/dorinda-andrews@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Tracy	Andrews</strong>
-            </p>
-            <p class="no-margin small">
-              Michigan State University<br/>
-              Michigan, Black<br/>
-              <a href="https://education.msu.edu/search/Formview.aspx?email=dcarter%40msu.edu">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:dcarter@msu.edu">Email</a>
-            </p>
-          </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
-          </div>
-      </article>
-    </div>
-    <!--end item-->
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Native American">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/algernon-austin@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Algernon	Austin</strong>
-            </p>
-            <p class="no-margin small">
-              N/ADēmos<br/>
-              District of Columbia<br/>
-              <a href="http://www.demos.org/algernon-austin">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:aaustin@demos.org">Email</a>
-            </p>
-          </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Workforce Development</span>
-          </div>
-      </article>
-    </div>
-    <!--end item-->
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Pacific Islander">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/tracy-ballysingh@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Tracy	Ballysingh</strong>
-            </p>
-            <p class="no-margin small">
-              University of Vermont<br/>
-              Vermont, Latino<br/>
-              <a href="http://www.uvm.edu/~cess/legacy/cess_profile.php?username=tballysi">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:Tracy.Ballysingh@uvm.edu">Email</a>
-            </p>
-          </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
-          </div>
-        </div>
-      </article>
-    </div>
+      <!-- Rod	K.	Brunson -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Black">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/rod-brunson@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Rod	K.	Brunson</strong>
+              </p>
 
-
-
-
-
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/algernon-austin@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>José	Bauermeister</strong>
-            </p>
-            <p class="no-margin small">
-              University of Pennsylvania<br/>
-              Pennsylvania<br/>
-              <a href="https://www.nursing.upenn.edu/live/profiles/111-jose-a-bauermeister">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:bjose@upenn.edu">Email</a>
-            </p>
-          </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Health</span>
-          </div>
-      </article>
-    </div>
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
-          </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/fred-bonner@2x.png", alt:"Image", class:"image--round border--round")%>
-
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Fred	Bonner II</strong>
-            </p>
-            <p class="no-margin small">
-              Prairie View A&amp;M University<BR/>
-              Texas, Native American<BR/>
-              <a href="http://www.pvamu.edu/education/faculty-staff/fred-bonner/">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a mailto="mailto:fabonner@pvamu.edu">Email</a>
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>Rutgers University<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>New Jersey
+                <br/>--<br/>
+                <a href="https://rscj.newark.rutgers.edu/people/faculty/brunson-rod" target="_blank">Professional Background</a>
+                <a mailto="mailto:kenneth.anderson@howard.edu">rodbruns@scj.rutgers.edu</a>
               </p>
             </div>
             <div class="card__bottom">
-              <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
+              <span class="label" style="position: inherit; bottom: 10px !important;">Black</span>
             </div>
-      </article>
-    </div>
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
           </div>
-          <div class="card__body">
-            <a href="#">
-              <%= image_tag("headshots/lee-bitsoi@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>LeManuel Bitsóí</strong>
-            </p>
-            <p class="no-margin small">
-              Stony Brook University<br/>
-              New York, Native American<br/>
-            <a href="http://www.stonybrook.edu/commcms/cdo/about/people.php">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a mailto="mailto:Lee.Bitsoi@stonybrook.edu">Email</a>
-          </p>
-        </div>
-        <div class="card__bottom">
-          <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
-        </div>
-      </article>
-    </div>
-    <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="">
-      <article class="feature feature-1">
-        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
-          <div class="card__top">
+        </article>
+      </div>
+      <!--end item-->
+
+      <!-- Phillip	Atiba	Goff -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Black">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/dorinda-andrews@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Phillip	Atiba	Goff</strong>
+              </p>
+
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>John Jay College<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>New York
+                <br/>--<br/>
+                <a href="http://policingequity.org/executive-team/phillip-atiba-goff-phd" target="_blank">Professional Background</a>
+                <a mailto="mailto:president@policingequity.org">president@policingequity.org</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Black</span>
+            </div>
           </div>
-          <div class="card__body">
-            <a href="#">
+        </article>
+      </div>
+      <!--end item-->
+
+      <!-- Ramiro		Martinez -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Latino">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/tracy-ballysingh@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Ramiro		Martinez</strong>
+              </p>
+
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>Northeastern University<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>Massachusetts
+                <br/>--<br/>
+                <a href="https://www.northeastern.edu/cssh/faculty/ramiro-martinez" target="_blank">Professional Background</a>
+                <a mailto="mailto:r.martinez@northeastern.edu">r.martinez@northeastern.edu</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Latino</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!--end item-->
+
+      <!-- Marc		Mauer -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Latino, Black">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/marc-mauer@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Marc		Mauer</strong>
+              </p>
+
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>The Sentencing Project<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>District of Columbia
+                <br/>--<br/>
+                <a href="http://www.sentencingproject.org/staff/marc-mauer" target="_blank">Professional Background</a>
+                <a mailto="mailto:mauer@sentencingproject.org">mauer@sentencingproject.org</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Latino</span>
+              <span class="label" style="position: inherit; bottom: 10px !important;">Black</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!--end item-->
+
+
+
+    <!-- 2nd Row *****************************---->
+
+      <!-- Joseph		Richardson -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Black">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/joseph-richardson@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Joseph		Richardson</strong>
+              </p>
+
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>University of Maryland<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i> Maryland
+                <br/>--<br/>
+                <a href="https://aasd.umd.edu/facultyprofile/Richardson%2C%20Jr./Joseph" target="_blank">Professional Background</a>
+                <a mailto="mailto:jrichar5@umd.edu">jrichar5@umd.edu</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Black</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!--end item-->
+
+      <!-- Victor		Rios -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Latino, Black">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
               <%= image_tag("headshots/bryan-brayboy@2x.png", alt:"Image", class:"image--round border--round")%>
-            </a>
-            <hr class="margin-bottom-10 margin-top-0"/>
-            <p>
-              <strong>Bryan	Brayboy</strong>
-            </p>
-            <p class="no-margin small">
-              Arizona State University<br/>
-              Arizona<br/>
-            <a href="https://isearch.asu.edu/profile/1148916">Website</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a mailto="mailto:Bryan.Brayboy@asu.edu">Email</a>
-            </p>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Victor		Rios</strong>
+              </p>
+
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>University of California, Santa Barbara<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>California
+                <br/>--<br/>
+                <a href="http://www.soc.ucsb.edu/faculty/victor-rios" target="_blank">Professional Background</a>
+                <a mailto="mailto:vrios@soc.ucsb.edu">vrios@soc.ucsb.edu</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Latino</span>
+              <span class="label" style="position: inherit; bottom: 10px !important;">Black</span>
+            </div>
           </div>
-          <div class="card__bottom">
-            <span class="label" style="position: inherit; bottom: 10px !important;">Education</span>
+        </article>
+      </div>
+      <!--end item-->
+
+      <!-- Cassia		Spohn -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Latino, Black">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/cassia-spohn@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Cassia		Spohn</strong>
+              </p>
+
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>Arizona State University<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>Arizona
+                <br/>--<br/>
+                <a href="https://ccj.asu.edu/content/cassia-spohn-0" target="_blank">Professional Background</a><br/>
+                <a mailto="mailto:Cassia.Spohn@asu.edu">Cassia.Spohn@asu.edu</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Black</span>
+              <span class="label" style="position: inherit; bottom: 10px !important;">Latino</span>
+            </div>
           </div>
-      </article>
-    </div>
+        </article>
+      </div>
+      <!--end item-->
 
+      <!-- Jacob	I.	Stowell -->
+      <div class="masonry__item col-xs-12 col-sm-6 col-md-3 col-lg-3" data-masonry-filter="Latino">
+        <article class="feature feature-1">
+          <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("headshots/edi-brockenbrough@2x.png", alt:"Image", class:"image--round border--round")%>
+            </div>
+            <div class="card__body">
+              <p>
+                <strong>Jacob	I.	Stowell</strong>
+              </p>
 
-
+              <p class="no-margin small">
+                <i class="fas fa-sitemap type--fade icon-left"></i>Northeastern University<br/>
+                <i class="fas fa-map-marker type--fade icon-left"></i>Massachusetts
+                <br/>--<br/>
+                <a href="https://www.northeastern.edu/cssh/faculty/jacob-stowell" target="_blank">Professional Background</a>
+                <a mailto="mailto:j.stowell@northeastern.edu">j.stowell@northeastern.edu</a>
+              </p>
+            </div>
+            <div class="card__bottom">
+              <span class="label" style="position: inherit; bottom: 10px !important;">Latino</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!--end item-->
 
 
 
