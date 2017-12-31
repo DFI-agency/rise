@@ -28,6 +28,7 @@ Rails.application.routes.draw do
   get 'data_center/coming'
   get 'data_center/soon'
 
+  get 'directory/education', to: 'directory#education', path: '/directory'
   get 'directory/landing'
   get 'directory/result1'
   get 'directory/result2'
