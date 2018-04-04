@@ -22,6 +22,9 @@ class IssuesController < ApplicationController
   def post5
   end
 
+  def post6
+  end
+
   def download_post1
     send_file(
       "#{Rails.root}/public/post1.pdf",
@@ -58,6 +61,14 @@ class IssuesController < ApplicationController
     send_file(
       "#{Rails.root}/public/post5.pdf",
       filename: "post5.pdf",
+      type: "application/pdf"
+    )
+  end
+
+  def download_post6
+    send_file(
+      "#{Rails.root}/public/post6.pdf",
+      filename: "post6.pdf",
       type: "application/pdf"
     )
   end

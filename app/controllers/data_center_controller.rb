@@ -264,9 +264,13 @@ class DataCenterController < ApplicationController
   end
 
 
-
-
-
+  def RISEgraphics_Apr17r3_fin
+    send_file(
+      "#{Rails.root}/public/downloads/png/data_center/education/RISE_Education_1.png",
+      filename: "data_center/RISE_Education_1.png",
+      type: "application/png"
+    )
+  end
 
 
 

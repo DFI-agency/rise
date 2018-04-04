@@ -22,7 +22,10 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/font-robotoslab.css" rel="stylesheet" type="text/css" media="all" />
 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
     <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= render "data_center/shared/css" %>
 
     <style>
     .image--xs {
@@ -37,6 +40,8 @@
     }
     </style>
 
+
+
     <%= favicon_link_tag %>
 
 
@@ -44,10 +49,12 @@
   <body class="">
 
     <a id="start"></a>
-    <%= render "layouts/shared/header" %>
+    <%#= render "layouts/shared/header" %>
 
     <div class="main-container box-shadow-dark">
-      <%#= render "data_center/header" %>
+      <%= render "data_center/header" %>
+
+
       <%= yield %>
       <%= render "layouts/shared/footer" %>
     </div>

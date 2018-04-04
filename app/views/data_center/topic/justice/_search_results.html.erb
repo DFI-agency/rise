@@ -1,34 +1,182 @@
 <style media="screen">
-.card-1 .card__body {
-  border-bottom: 1px solid #ececec;
-   padding-bottom: 0.30em;
-   margin-bottom: 0.65em;
-}
-.label {
-  min-width: 0;
-  font-size: 8.5px;
-}
+  .card-1 .card__body {
+    border-bottom: 1px solid #ececec;
+     padding-bottom: 0.30em;
+     margin-bottom: 0.65em;
+  }
+  .label {
+    min-width: 0;
+    font-size: 8.5px;
+  }
 </style>
 
 
 <div class="masonry__container">
-    <div class="masonry__item col-sm-4"></div>
+    <div class="masonry__item col-sm-3"></div>
 
 
-    <div class="masonry__item col-sm-4" data-masonry-filter="White, Men, U.S., Age: 18+">
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: All">
       <article class="feature feature-1">
         <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
           <div class="card__top">
+            <%= link_to '/data-center/justice/RISEgraphics_Apr17r3_fin.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
           </div>
           <div class="card__body">
-            <a href="<%= image_url("data-center/justice/1.png")%>" data-lightbox="true">
-            	<%= image_tag("data-center/justice/1.png", alt:"Image")%>
+            <a href="<%= image_url("/data-center/justice/RISEgraphics_Apr17r3_fin.png")%>" data-lightbox="true">
+            	<%= image_tag("/data-center/justice/RISEgraphics_Apr17r3_fin.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Custody Rates by Race/Ethnicity</strong>
+            </p>
+            <h6 class="no-margin">
+               2007-2011
+            </h6>
+          </div>
+          <div class="card__bottom">
+            <span class="label" style="position: inherit; bottom: 10px !important;">All Races</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">U.S.</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--end item-->
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: All">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/data-center/justice/RISEgraphics_Apr17r3_fin4.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/data-center/justice/RISEgraphics_Apr17r3_fin4.png")%>" data-lightbox="true">
+            	<%= image_tag("/data-center/justice/RISEgraphics_Apr17r3_fin4.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Males 18 and over by Race/Ethnicity, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2007-2011
+            </h6>
+          </div>
+          <div class="card__bottom">
+            <span class="label" style="position: inherit; bottom: 10px !important;">All Races</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">Males</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">U.S.</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">18+</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--end item-->
+
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: All">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/data-center/justice/RISEgraphics_Apr17r3_fin5.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/data-center/justice/RISEgraphics_Apr17r3_fin5.png")%>" data-lightbox="true">
+            	<%= image_tag("/data-center/justice/RISEgraphics_Apr17r3_fin5.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Males 18 and over in Custody (State and Federal) by Race /Ethnicity, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2007-2011
+            </h6>
+          </div>
+          <div class="card__bottom">
+            <span class="label" style="position: inherit; bottom: 10px !important;">Males</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">18+</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">All Races</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">U.S.</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--end item-->
+
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: All">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/data-center/justice/RISEgraphics_Apr17r3_fin6.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/data-center/justice/RISEgraphics_Apr17r3_fin6.png")%>" data-lightbox="true">
+            	<%= image_tag("/data-center/justice/RISEgraphics_Apr17r3_fin6.png", alt:"Image")%>
             </a>
             <p>
               <strong>US Concentration of White Men 18 and Over Incarcerated</strong>
             </p>
             <h6 class="no-margin">
-              <i class="fa fa-map-marker" aria-hidden="true"></i> 2011
+               2011
+            </h6>
+          </div>
+          <div class="card__bottom">
+            <span class="label" style="position: inherit; bottom: 10px !important;">Males</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">18+</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">All Races</span>
+            <span class="label" style="position: inherit; bottom: 10px !important;">U.S.</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--end item-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: White">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/justice/RISEgraphics_CJ_MapsR1.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/justice/RISEgraphics_CJ_MapsR1.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/justice/RISEgraphics_CJ_MapsR1.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>US Concentration of White Men 18 and Over Incarcerated</strong>
+            </p>
+            <h6 class="no-margin">
+               2011
             </h6>
           </div>
           <div class="card__bottom">
@@ -41,20 +189,23 @@
       </article>
     </div>
     <!--end item-->
-    <div class="masonry__item col-sm-4" data-masonry-filter="Black, Men, U.S., Age: 18+">
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Black">
       <article class="feature feature-1">
         <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
           <div class="card__top">
+            <%= link_to '/downloads/png/justice/RISEgraphics_CJ_MapsR12.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
           </div>
           <div class="card__body">
-            <a href="<%= image_url("data-center/justice/2.png")%>" data-lightbox="true">
-            	<%= image_tag("data-center/justice/2.png", alt:"Image")%>
+            <a href="<%= image_url("/downloads/png/justice/RISEgraphics_CJ_MapsR12.png.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/justice/RISEgraphics_CJ_MapsR12.png", alt:"Image")%>
             </a>
             <p>
               <strong>US Concentration of Black Men 18 and Over Incarcerated</strong>
             </p>
             <h6 class="no-margin">
-              <i class="fa fa-map-marker" aria-hidden="true"></i> 2011
+               2011
             </h6>
           </div>
           <div class="card__bottom">
@@ -66,21 +217,24 @@
       </article>
     </div>
     <!--end item-->
-    <div class="masonry__item col-sm-4" data-masonry-filter="Latino, Men, U.S., Age: 18+">
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Latino">
       <article class="feature feature-1">
         <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
           <div class="card__top">
+            <%= link_to '/downloads/png/justice/RISEgraphics_CJ_MapsR13.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
           </div>
           <div class="card__body">
-            <a href="<%= image_url("data-center/justice/3.png")%>" data-lightbox="true">
-            	<%= image_tag("data-center/justice/3.png", alt:"Image")%>
+            <a href="<%= image_url("/downloads/png/justice/RISEgraphics_CJ_MapsR13.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/justice/RISEgraphics_CJ_MapsR13.png", alt:"Image")%>
             </a>
             <p>
               <strong>US Concentration of Latino Men 18 and Over Incarcerated</strong>
 
             </p>
             <h6 class="no-margin">
-              <i class="fa fa-map-marker" aria-hidden="true"></i> 2011
+               2011
             </h6>
           </div>
           <div class="card__bottom">
@@ -92,21 +246,24 @@
       </article>
     </div>
     <!--end item-->
-    <div class="masonry__item col-sm-4" data-masonry-filter="American Indian/Alaskan Native, Men, U.S., Age: 18+">
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: American Indian/Alaskan Native">
       <article class="feature feature-1">
         <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
           <div class="card__top">
+            <%= link_to '/downloads/png/justice/RISEgraphics_CJ_MapsR14.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
           </div>
           <div class="card__body">
-            <a href="<%= image_url("data-center/justice/4.png")%>" data-lightbox="true">
-            	<%= image_tag("data-center/justice/4.png", alt:"Image")%>
+            <a href="<%= image_url("/downloads/png/justice/RISEgraphics_CJ_MapsR14.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/justice/RISEgraphics_CJ_MapsR14.png", alt:"Image")%>
             </a>
             <p>
               <strong>US Concentration of American Indian/Alaskan Native Men 18 and
               Over Incarcerated</strong>
             </p>
             <h6 class="no-margin">
-              <i class="fa fa-map-marker" aria-hidden="true"></i> 2011
+               2011
             </h6>
           </div>
           <div class="card__bottom">
@@ -118,14 +275,17 @@
       </article>
     </div>
     <!--end item-->
-    <div class="masonry__item col-sm-4" data-masonry-filter="Asian, Men, U.S., Age: 18+">
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Asian">
       <article class="feature feature-1">
         <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
           <div class="card__top">
+            <%= link_to '/downloads/png/justice/RISEgraphics_CJ_MapsR15.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
           </div>
           <div class="card__body">
-            <a href="<%= image_url("data-center/justice/5.png")%>" data-lightbox="true">
-            	<%= image_tag("data-center/justice/5.png", alt:"Image")%>
+            <a href="<%= image_url("/downloads/png/justice/RISEgraphics_CJ_MapsR15.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/justice/RISEgraphics_CJ_MapsR15.png", alt:"Image")%>
             </a>
             <p>
               <strong>
@@ -133,7 +293,7 @@
               </strong>
             </p>
             <h6 class="no-margin">
-              <i class="fa fa-map-marker" aria-hidden="true"></i> 2011
+               2011
             </h6>
           </div>
           <div class="card__bottom">
@@ -146,14 +306,17 @@
     </div>
 
     <!--end item-->
-    <div class="masonry__item col-sm-4" data-masonry-filter="Pacific Islander, Men, U.S., Age: 18+">
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Pacific Islander">
       <article class="feature feature-1">
         <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
           <div class="card__top">
+            <%= link_to '/downloads/png/justice/RISEgraphics_CJ_MapsR16.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
           </div>
           <div class="card__body">
-            <a href="<%= image_url("data-center/justice/6.png")%>" data-lightbox="true">
-            	<%= image_tag("data-center/justice/6.png", alt:"Image")%>
+            <a href="<%= image_url("/downloads/png/justice/RISEgraphics_CJ_MapsR16.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/justice/RISEgraphics_CJ_MapsR16.png", alt:"Image")%>
             </a>
             <p>
               <strong>
@@ -161,7 +324,7 @@
                 Over Incarcerated</strong>
             </p>
             <h6 class="no-margin">
-              <i class="fa fa-map-marker" aria-hidden="true"></i> 2011
+               2011
             </h6>
           </div>
           <div class="card__bottom">

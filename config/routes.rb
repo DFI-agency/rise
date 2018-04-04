@@ -45,6 +45,7 @@ Rails.application.routes.draw do
   get 'issues/post3'
   get 'issues/post4'
   get 'issues/post5'
+  get 'issues/post6'
 
   get 'pages/home'
   get 'pages/about'
@@ -75,6 +76,7 @@ Rails.application.routes.draw do
   get "issues/download_post3"
   get "issues/download_post4"
   get "issues/download_post5"
+  get "issues/download_post6"
 
   get "data_center/criminal_justice_tc"
   get "data_center/education_attainment_tc_americanindian"
@@ -92,6 +94,157 @@ Rails.application.routes.draw do
   get "data_center/education_attainment_databox"
   get "data_center/health_insurance_coverage"
   get "data_center/workforce_databox"
+
+
+
+
+
+  #education
+  # get "data_center/RISE_Education_1.png"
+  # get "data_center/RISE_Education_2.png"
+  # get "data_center/RISE_Education_3.png"
+  # get "data_center/RISE_Education_4.png"
+  # get "data_center/RISE_Education_5.png"
+  # get "data_center/RISE_Education_6.png"
+  # get "data_center/RISE_Education_7.png"
+  # get "data_center/RISE_Education_8.png"
+  # get "data_center/RISE_Education_9.png"
+  # get "data_center/RISE_Education_10.png"
+  # get "data_center/RISE_Education_11.png"
+  # get "data_center/RISE_Education_12.png"
+  # get "data_center/RISE_Education_13.png"
+  # get "data_center/RISE_Education_14.png"
+  # get "data_center/RISE_Education_15.png"
+  # get "data_center/RISE_Education_16.png"
+  # get "data_center/RISE_Education_17.png"
+  # get "data_center/RISE_Education_18.png"
+  # get "data_center/RISE_Education_19.png"
+  # get "data_center/RISE_Education_20.png"
+  # get "data_center/RISE_Education_21.png"
+  # get "data_center/RISE_Education_22.png"
+  # get "data_center/RISE_Education_23.png"
+  # get "data_center/RISE_Education_24.png"
+  # get "data_center/RISE_Education_25.png"
+
+
+  #health
+  # get "data_center/RISE_Education_Batch2_1.png"
+  # get "data_center/RISE_Education_Batch2_2.png"
+  # get "data_center/RISE_Education_Batch2_3.png"
+  # get "data_center/RISE_Education_Batch2_4.png"
+  # get "data_center/RISE_Education_Batch2_5.png"
+  # get "data_center/RISE_Education_Batch2_6.png"
+  # get "data_center/RISE_Education_Batch2_7.png"
+  # get "data_center/RISE_Education_Batch2_8.png"
+  # get "data_center/RISE_Education_Batch2_9.png"
+  # get "data_center/RISE_Education_Batch2_10.png"
+  # get "data_center/RISE_Education_Batch2_11.png"
+  # get "data_center/RISE_Education_Batch2_12.png"
+  # get "data_center/RISE_Education_Batch2_13.png"
+  # get "data_center/RISE_Education_Batch2_14.png"
+  # get "data_center/RISE_Education_Batch2_15.png"
+  # get "data_center/RISE_Education_Batch2_16.png"
+  # get "data_center/RISE_Education_Batch2_17.png"
+  # get "data_center/RISE_Education_Batch2_18.png"
+  # get "data_center/RISE_Education_Batch2_19.png"
+  # get "data_center/RISE_Education_Batch2_20.png"
+  # get "data_center/RISE_Education_Batch2_21.png"
+  # get "data_center/RISE_Education_Batch2_22.png"
+  # get "data_center/RISE_Education_Batch2_23.png"
+  # get "data_center/RISE_Education_Batch2_24.png"
+  # get "data_center/RISE_Education_Batch2_25.png"
+
+
+  #justice
+  # get "data_center/RISEgraphics_Apr17r3_fin.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin4.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin5.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin6.png"
+  # get "data_center/RISEgraphics_CJ_MapsR1.png"
+  # get "data_center/RISEgraphics_CJ_MapsR12.png"
+  # get "data_center/RISEgraphics_CJ_MapsR13.png"
+  # get "data_center/RISEgraphics_CJ_MapsR14.png"
+  # get "data_center/RISEgraphics_CJ_MapsR15.png"
+  # get "data_center/RISEgraphics_CJ_MapsR16.png"
+
+  #justice
+  # get "data_center/RISE_Workforce_Batch3_1.png"
+  # get "data_center/RISE_Workforce_Batch3_2.png"
+  # get "data_center/RISE_Workforce_Batch3_3.png"
+  # get "data_center/RISE_Workforce_Batch3_4.png"
+  # get "data_center/RISE_Workforce_Batch3_5.png"
+  # get "data_center/RISE_Workforce_Batch3_6.png"
+  # get "data_center/RISE_Workforce_Batch3_7.png"
+  # get "data_center/RISE_Workforce_Batch3_8.png"
+  # get "data_center/RISE_Workforce_Batch3_9.png"
+  # get "data_center/RISE_Workforce_Batch3_10.png"
+  # get "data_center/RISE_Workforce_Batch3_11.png"
+  # get "data_center/RISE_Workforce_Batch3_12.png"
+  # get "data_center/RISE_Workforce_Batch3_13.png"
+  # get "data_center/RISE_Workforce_Batch3_14.png"
+  # get "data_center/RISE_Workforce_Batch3_15.png"
+  # get "data_center/RISE_Workforce_Batch3_16.png"
+  # get "data_center/RISE_Workforce_Batch3_17.png"
+  # get "data_center/RISE_Workforce_Batch3_18.png"
+  # get "data_center/RISE_Workforce_Batch3_19.png"
+  # get "data_center/RISE_Workforce_Batch3_20.png"
+  # get "data_center/RISE_Workforce_Batch3_21.png"
+  # get "data_center/RISE_Workforce_Batch3_22.png"
+  # get "data_center/RISE_Workforce_Batch3_23.png"
+  # get "data_center/RISE_Workforce_Batch3_24.png"
+  # get "data_center/RISE_Workforce_Batch3_25.png"
+
+
+
+  #aggregate
+  # get "data_center/RISE_EducationB_AllRegions_R1.png"
+  # get "data_center/RISE_EducationB_AllRegions_R12.png"
+  # get "data_center/RISE_EducationB_AllRegions_R13.png"
+  # get "data_center/RISE_EducationB_AllRegions_R14.png"
+  # get "data_center/RISE_EducationB_AllRegions_R15.png"
+  # get "data_center/RISE_EducationB_AllRegions_R16.png"
+  # get "data_center/RISE_EducationB_AllRegions_R17.png"
+  # get "data_center/RISE_EducationB_AllRegions_R18.png"
+  # get "data_center/RISE_EducationB_AllRegions_R19.png"
+  #
+  # get "data_center/RISE_EducationB_AllRegions_R111.png"
+  # get "data_center/RISE_EducationB_AllRegions_R112.png"
+  # get "data_center/RISE_EducationB_AllRegions_R113.png"
+  # get "data_center/RISE_EducationB_AllRegions_R114.png"
+  # get "data_center/RISE_EducationB_AllRegions_R115.png"
+  #
+  # get "data_center/RISEgraphics_Apr17r3_fin.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin2.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin3.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin4.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin5.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin6.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin7.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin8.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin9.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin10.png"
+  # get "data_center/RISEgraphics_Apr17r3_fin11.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
