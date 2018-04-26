@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   get 'data_center/landing', to: 'data_center#landing', path: '/data-center'
   get 'data_center/coming'
   get 'data_center/soon'
+  get 'data_center/chats', to: 'data_center#chats', path: '/data-center/chats'
 
   get 'directory/education', to: 'directory#education', path: '/directory'
   get 'directory/landing'
@@ -55,6 +56,7 @@ Rails.application.routes.draw do
   get 'pages/grad_prep_application', to: 'pages#grad_prep_application', path: '/grad-prep-academy-application'
   get 'pages/research'
   get 'pages/contact_us'
+  get 'pages/media', to: 'pages#media', path: '/media'
 
   get 'data_center/health', to: 'data_center#health', path: 'data-center/health', as: 'health'
   get 'data_center/education', to: 'data_center#education', path: 'data-center/education', as: 'education'
@@ -94,6 +96,8 @@ Rails.application.routes.draw do
   get "data_center/education_attainment_databox"
   get "data_center/health_insurance_coverage"
   get "data_center/workforce_databox"
+
+
 
 
 

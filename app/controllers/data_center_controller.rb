@@ -10,7 +10,8 @@ class DataCenterController < ApplicationController
   def soon
   end
 
-
+  def chats
+  end
 
   def custody_rates_2007_2011_race_ethnicity
     send_file(
