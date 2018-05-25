@@ -1,0 +1,907 @@
+health!
+
+
+<!-- *************** BEG 1 - 40 ***************** -->
+
+<!-- 1-4 -->
+
+<div class="masonry__item col-sm-3" data-masonry-filter="Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_1.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_1.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_1.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage, Males 18-34 by Race and Ethnicity, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+    </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_2.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_2.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_2.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage, Males 35-64 by Race and Ethnicity, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_3.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_3.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_3.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage, Males 65+ by Race and Ethnicity, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Asian, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_4.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_4.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_4.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage, Asian Males 18-34, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+
+<!-- 5-8 -->
+
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Asian, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_5.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_5.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_5.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Asian Males 35-64, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+    </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Asian, Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_6.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_6.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_6.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Asian Males 65+, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: East Asian, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_7.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_7.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_7.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage East Asian Males 18-34, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: East Asian, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_8.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_8.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_8.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage East Asian Males 35-64, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+
+<!-- 9-12 -->
+
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: East Asian, Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_9.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_9.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_9.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage East Asian Males 65+, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+    </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Southeast Asian, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_10.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_10.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_10.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage Southeast Asian Males 18-34, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Southeast Asian, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_11.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_11.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_11.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Southeast Asian Males 35-64, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Southeast Asian, Ages: 65+">
+    <article class="feature feature-1">
+      <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+        <div class="card__top">
+          <%= link_to '/downloads/png/health/RISE_Education_Batch2_12.png', class: "h5 download-link", download: '' do %>
+           Download chart <i class="fas fa-cloud-download-alt"></i>
+          <% end %>
+        </div>
+        <div class="card__body">
+          <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_12.png")%>" data-lightbox="true">
+            <%= image_tag("/downloads/png/health/RISE_Education_Batch2_12.png", alt:"Image")%>
+          </a>
+          <p>
+            <strong>Health Insurance Coverage Southeast Asian Males 65+, United States</strong>
+          </p>
+          <h6 class="no-margin">
+             2011-2013
+          </h6>
+        </div>
+    </article>
+  </div>
+
+<!-- 13-16 -->
+
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: South Asian, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_13.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_13.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_13.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage South Asian Males 18-34, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+    </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: South Asian, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_14.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_14.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_14.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage South Asian Males 35-64 , United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: South Asian, Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_15.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_15.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_15.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage South Asian Males 65+, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Pacific Islander, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_16.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_16.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_16.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage Pacific Islander Males 18-34, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+
+<!-- 17-20 -->
+
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Pacific Islander, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_17.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_17.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_17.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage Pacific Islander Males 35-64, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+    </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Pacific Islander, Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_18.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_18.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_18.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>
+            Health Insurance Coverage Pacific Islander Males 65+, United States
+          </strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Polynesian, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_19.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_19.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_19.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Polynesian Males 18-34, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Polynesian, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_20.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_20.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_20.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Polynesian Males 35-64, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+
+<!-- 21-24 -->
+
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Polynesian, Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_21.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_21.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Polynesian Males 65+, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+    </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Melanesian, Ages: 18-34">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_22.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_22.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Melanesian Males 18-34, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Melanesian, Ages: 35-64">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_23.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_23.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_23.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Melanesian Males 35-64, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+<div class="masonry__item col-sm-3" data-masonry-filter="Race: Melanesian, Ages: 65+">
+  <article class="feature feature-1">
+    <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+      <div class="card__top">
+        <%= link_to '/downloads/png/health/RISE_Education_Batch2_24.png', class: "h5 download-link", download: '' do %>
+         Download chart <i class="fas fa-cloud-download-alt"></i>
+        <% end %>
+      </div>
+      <div class="card__body">
+        <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_24.png")%>" data-lightbox="true">
+          <%= image_tag("/downloads/png/health/RISE_Education_Batch2_24.png", alt:"Image")%>
+        </a>
+        <p>
+          <strong>Health Insurance Coverage Melanesian Males 65+, United States</strong>
+        </p>
+        <h6 class="no-margin">
+           2011-2013
+        </h6>
+      </div>
+  </article>
+</div>
+
+
+
+    <!-- 25-28 -->
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Melanesian, Ages: 18-34">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_25.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_25.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_25.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Melanesian Males 18-34, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Melanesian, Ages: 35-64">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_26.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_26.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_26.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Melanesian Males 35-64, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Melanesian, Ages: 65+">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_27.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_27.png")%>" data-lightbox="true">
+              <%= image_tag("/downloads/png/health/RISE_Education_Batch2_27.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Melanesian Males 65+, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Hispanic/Latino, Ages: 18-34">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_28.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_28.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_28.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Hispanic/Latino Males 18-34, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+
+    <!-- 29-32 -->
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Region: Hispanic/Latino, Ages: 35-64">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_29.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_29.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_29.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Hispanic/Latino Males 35-64, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Hispanic/Latino, Ages: 65+">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_30.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_30.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_30.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Hispanic/Latino Males 65+, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Carribean, Ages: 18-34">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_31.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_31.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_31.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Carribean Males 18-34, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Carribean, Ages: 35-64">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_32.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_32.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_32.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Carribean Males 35-64, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+
+    <!-- 33-36 -->
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Carribean, Ages: 65+">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_33.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_33.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_33.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Carribean Males 65+, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Central American, Ages: 18-34">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_34.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_34.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_34.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Carribean Males 18-34, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Central American, Ages: 35-64">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_35.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_35.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_35.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Central American Males 35-64, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: Central American, Ages: 65+">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_36.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_36.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_36.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage Central American Males 65+, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+
+    <!-- 37-40 -->
+
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: South American, Ages: 18-34">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_37.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_37.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_37.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage South American Males 18-34, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: South American, Ages: 35-64">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_38.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_38.png")%>" data-lightbox="true">
+              <%= image_tag("/downloads/png/health/RISE_Education_Batch2_38.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage South American Males 35-64, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: South American, Ages: 65+">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_39.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_39.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_39.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage South American Males 65+, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+    <div class="masonry__item col-sm-3" data-masonry-filter="Race: American Indian, Ages: 18-34">
+      <article class="feature feature-1">
+        <div class="card card-1 boxed boxed--sm boxed--border box-shadow-light">
+          <div class="card__top">
+            <%= link_to '/downloads/png/health/RISE_Education_Batch2_40.png', class: "h5 download-link", download: '' do %>
+             Download chart <i class="fas fa-cloud-download-alt"></i>
+            <% end %>
+          </div>
+          <div class="card__body">
+            <a href="<%= image_url("/downloads/png/health/RISE_Education_Batch2_40.png")%>" data-lightbox="true">
+            	<%= image_tag("/downloads/png/health/RISE_Education_Batch2_40.png", alt:"Image")%>
+            </a>
+            <p>
+              <strong>Health Insurance Coverage American Indian Males 18-34, United States</strong>
+            </p>
+            <h6 class="no-margin">
+               2011-2013
+            </h6>
+          </div>
+      </article>
+    </div>
+
+
+  <!-- *************** END 1 - 40 ***************** -->
