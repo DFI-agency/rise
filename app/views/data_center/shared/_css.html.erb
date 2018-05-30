@@ -243,7 +243,16 @@ a.download-link .svg-inline--fa {
 
 .bar .menu-horizontal {
     position: relative;
-    top: -1px;
+    top: 0px;
+}
+
+.bar.pos-fixed:not([class*='bg-']) {
+    background: #000;
+}
+
+.bg--dark:not(.nav-bar):not(.bar) a:not(.btn) {
+    color: #fff;
+
 }
 
 </style>
