@@ -1,14 +1,21 @@
 <style>
-.bg--white {
-  background-color: rgba(255, 255, 255, .5);
+.card, .card__top, .card__bottom {
+  background: rgba(255, 255, 255, .0);
+}
+.card h4 {
+  font-size: 1.2em;
+  font-weight: 400;
 }
 .card {
   border-radius: 6px;
 }
+.text-muted {
+  color: #888;
+}
 </style>
 
 
-<section class="imagebg height-100 text-center" data-gradient-bg="#5f2c82,#49a09d,#F3A183,#5f2c82">
+<section class="imagebg image--light height-100 text-center" data-gradient-bg="#5f2c82,#49a09d,#F3A183,#5f2c82">
     <div class="background-image-holder">
         <%= image_tag("rise_assets/coming-soon/data-center.png") %>
     </div>
@@ -19,11 +26,11 @@
       </p>
     </div>
     <br/>
-    <h1 class="text-center title-font-alt">Research Data Center</h1>
+    <h1 class="text-center title-font-alt color--white">Research Data Center</h1>
     <br/>
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h4 class="text-center">
+        <h4 class="text-center color--white">
           This repository organizes hundreds of downloadable open-source charts, graphs,
           and images. Enter the Data Center to get high resolution graphics of finely
           disaggregated community data for your review or to include in your own reports
@@ -35,13 +42,13 @@
     <div class="row">
       <div class="col-sm-3 masonry__item">
         <%= link_to data_center_education_path class: "block" do %>
-          <div class="card card-2 text-center bg--white box-shadow-light">
+          <div class="card card-2 text-center box-shadow-light">
             <div class="card__top">
                 <%= image_tag("stock/latino.jpg") %>
             </div>
-            <div class="card__bottom text-center color--faded">
-              <h4 class="title-font-alt no-margin">Education</h4>
-              <p>Explore the Data</p>
+            <div class="card__bottom text-center">
+              <h4 class="title-font-alt no-margin color--white">Education</h4>
+              <h4 class="color--yellow">Explore the Data</h4>
             </div>
           </div>
         <% end %>
@@ -49,39 +56,39 @@
       <div class="col-sm-3 masonry__item">
         <%= link_to data_center_health_path class: "block" do %>
 
-          <div class="card card-2 text-center bg--white box-shadow-light">
+          <div class="card card-2 text-center box-shadow-light">
             <div class="card__top">
               <%= image_tag("stock/black.jpg") %>
             </div>
             <div class="card__bottom text-center color--faded">
-              <h4 class="title-font-alt no-margin">Health</h4>
-              <p>Explore the Data</p>
+              <h4 class="title-font-alt no-margin color--white">Health</h4>
+              <h4 class="color--yellow">Explore the Data</h4>
             </div>
           </div>
         <% end %>
       </div>
       <div class="col-sm-3 masonry__item">
         <%= link_to data_center_criminal_justice_path class: "block" do %>
-          <div class="card card-2 text-center bg--white box-shadow-light">
+          <div class="card card-2 text-center box-shadow-light">
           <div class="card__top">
             <%= image_tag("stock/asian.jpg") %>
           </div>
           <div class="card__bottom text-center color--faded">
-            <h4 class="title-font-alt no-margin">Justice</h4>
-            <p>Explore the Data</p>
+            <h4 class="title-font-alt no-margin color--white">Justice</h4>
+            <h4 class="color--yellow">Explore the Data</h4>
           </div>
         </div>
         <% end %>
       </div>
       <div class="col-sm-3 masonry__item">
         <%= link_to data_center_workforce_development_path class: "block" do %>
-          <div class="card card-2 text-center bg--white box-shadow-light">
+          <div class="card card-2 text-center box-shadow-light">
             <div class="card__top">
                 <%= image_tag("stock/native-indian.jpg") %>
             </div>
-            <div class="card__bottom text-center color--faded">
-              <h4 class="title-font-alt no-margin">Workforce</h4>
-              <p>Explore the Data</p>
+            <div class="card__bottom text-center">
+              <h4 class="title-font-alt no-margin color--white">Workforce</h4>
+              <h4 class="color--yellow">Explore the Data</4>
             </div>
           </div>
         <% end %>
