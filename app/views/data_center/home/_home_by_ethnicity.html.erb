@@ -31,23 +31,14 @@
           </div>
         <% end %>
       </div>
-      <div class="col-sm-3 masonry__item">
-        <%= link_to data_center_black_path class: "block" do %>
-
-          <div class="card card-2 text-center bg--white box-shadow-light">
-            <div class="card__top">
-                <%= image_tag("stock/black.jpg") %>
-
-            </div>
-            <div class="card__body">
-              <h3 class="no-margin">Black</h3>
-            </div>
-            <div class="card__bottom text-center">
-              View All Data and Research
-            </div>
+      <%= link_to data_center_health_path class: "block" do %>
+          <div class="feature bg--white boxed boxed--border border--round text-center box-shadow-light">
+              <p>
+                <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-health.svg" , class: "no-margin image--lg")%>
+              </p>
+              <span class="h4 color--primary">Health</span>
           </div>
-        <% end %>
-      </div>
+      <% end %>
       <div class="col-sm-3 masonry__item">
         <%= link_to data_center_latino_path class: "block" do %>
           <div class="card card-2 text-center bg--white box-shadow-light">

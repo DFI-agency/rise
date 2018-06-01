@@ -1,89 +1,92 @@
-<section class="cover height-100 imagebg bg--primary switchable" data-overlay="8">
-  <br/>
-  <div class="background-image-holder">
-    <%= image_tag("rise_assets/home/hero/image/image@2x.png")%>
-  </div>
-  <div class="container ">
+<style>
+.bg--white {
+  background-color: rgba(255, 255, 255, .5);
+}
+.card {
+  border-radius: 6px;
+}
+</style>
+
+
+<section class="imagebg height-100 text-center" data-gradient-bg="#5f2c82,#49a09d,#F3A183,#5f2c82">
+    <div class="background-image-holder">
+        <%= image_tag("rise_assets/coming-soon/data-center.png") %>
+    </div>
+  <div class="container pos-vertical-center">
     <div class="row">
-      <p class="text-center row">
+      <p class="text-center col-md-8 col-md-offset-2">
         <%= image_tag("rise_assets/home/hero/logo/rise-logo/rise-logo.png", class: "col-md-4 col-md-offset-4")%>
       </p>
     </div>
     <br/>
     <h1 class="text-center title-font-alt">Research Data Center</h1>
     <br/>
-    <h4 class="text-center">
-      This repository organizes hundreds of downloadable open-source charts, graphs,
-      and images. Enter the Data Center to get high resolution graphics of finely
-      disaggregated community data for your review or to include in your own reports
-      and proposals.
-    </h4>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h4 class="text-center">
+          This repository organizes hundreds of downloadable open-source charts, graphs,
+          and images. Enter the Data Center to get high resolution graphics of finely
+          disaggregated community data for your review or to include in your own reports
+          and proposals.
+        </h4>
+      </div>
+    </div>
     <hr class="center" style="width: 20%;"/>
-    <div class="container">
-      <div class="row">
-        <div class="">
-          <br/>
-          <br/>
-          <h3 class="color--orange text-center">Explore Data and Research by Field</h1>
+    <div class="row">
+      <div class="col-sm-3 masonry__item">
+        <%= link_to data_center_education_path class: "block" do %>
+          <div class="card card-2 text-center bg--white box-shadow-light">
+            <div class="card__top">
+                <%= image_tag("stock/asian.jpg") %>
+            </div>
+            <div class="card__bottom text-center color--faded">
+              <h4 class="title-font-alt no-margin">Education</h4>
+              <p>Explore the Data</p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+      <div class="col-sm-3 masonry__item">
+        <%= link_to data_center_health_path class: "block" do %>
+
+          <div class="card card-2 text-center bg--white box-shadow-light">
+            <div class="card__top">
+              <%= image_tag("stock/black.jpg") %>
+            </div>
+            <div class="card__bottom text-center color--faded">
+              <h4 class="title-font-alt no-margin">Health</h4>
+              <p>Explore the Data</p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+      <div class="col-sm-3 masonry__item">
+        <%= link_to data_center_criminal_justice_path class: "block" do %>
+          <div class="card card-2 text-center bg--white box-shadow-light">
+          <div class="card__top">
+              <%= image_tag("stock/latino.jpg") %>
+          </div>
+          <div class="card__bottom text-center color--faded">
+            <h4 class="title-font-alt no-margin">Criminal Justice</h4>
+            <p>Explore the Data</p>
+          </div>
         </div>
+        <% end %>
+      </div>
+      <div class="col-sm-3 masonry__item">
+        <%= link_to data_center_workforce_development_path class: "block" do %>
+          <div class="card card-2 text-center bg--white box-shadow-light">
+            <div class="card__top">
+                <%= image_tag("stock/native-indian.jpg") %>
+            </div>
+            <div class="card__bottom text-center color--faded">
+              <h4 class="title-font-alt no-margin">Workforce</h4>
+              <p>Explore the Data</p>
+            </div>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-          <div class="col-sm-3">
-              <%= link_to data_center_education_path class: "block" do %>
-                  <div class="feature bg--white boxed boxed--border border--round text-center box-shadow-light">
-                      <p>
-                        <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-education.svg", class: "no-margin image--lg")%>
-                      </p>
-                      <span class="h4 color--primary">Education</span>
-                  </div>
-              <% end %>
-          </div>
-          <div class="col-sm-3">
-              <%= link_to data_center_workforce_development_path class: "block" do %>
-                  <div class="feature bg--white boxed boxed--border border--round text-center box-shadow-light">
-                      <p>
-                        <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-workforce.svg" , class: "no-margin image--lg")%>
-                      </p>
-                      <span class="h4 color--primary">Workforce Development</span>
-                  </div>
-              <% end %>
-          </div>
-          <div class="col-sm-3">
-              <%= link_to data_center_health_path class: "block" do %>
-                  <div class="feature bg--white boxed boxed--border border--round text-center box-shadow-light">
-                      <p>
-                        <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-health.svg" , class: "no-margin image--lg")%>
-                      </p>
-                      <span class="h4 color--primary">Health</span>
-                  </div>
-              <% end %>
-          </div>
-          <div class="col-sm-3">
-              <%= link_to data_center_criminal_justice_path class: "block" do %>
-                  <div class="feature bg--white boxed boxed--border border--round text-center box-shadow-light">
-                      <p>
-                        <%= image_tag("rise_assets/home/cb_6_rise_fields/glyph-justice.svg" , class: "no-margin image--lg")%>
-                      </p>
-                      <span class="h4 color--primary">Criminal Justice</span>
-                  </div>
-              <% end %>
-          </div>
-        </div>
-      </div>
-    <p class="text-center">
-      <a class="inner-link" href="#latest" data-scroll-class="100vh:active">
-      <%= image_tag("rise_assets/hero_head/dn-arrow/scroll-arrow.svg", style: "height: 60px; opacity: .75;") %>
-      </a>
-    </p>
-  </div>
+
 </section>
-
-
-<%#= render "data_center/home/home_by_topic" %>
-<%#= render "data_center/home/home_by_ethnicity" %>
-<%#= render "data_center/home/home_by_location" %>
-<%#= render "data_center/home/home_latest_publications" %>
-<%#= render "pages/home/social" %>
